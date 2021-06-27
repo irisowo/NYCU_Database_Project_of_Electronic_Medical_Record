@@ -3,8 +3,8 @@
     include 'header.php';
     // Modify the command to execute python
     $user_name = get_current_user();
-    $KNN_cmd = "/Users/$user_name/opt/anaconda3/bin/python plot_icd9.py";
-    $Association_rule_cmd = "/Users/$user_name/opt/anaconda3/bin/python association.py";
+    $KNN_cmd = "python3 plot_icd9.py";
+    $Association_rule_cmd = "python3 association.py";
 ?>
 
 <body id="ResultPage">
