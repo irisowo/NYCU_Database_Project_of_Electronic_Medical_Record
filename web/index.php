@@ -50,10 +50,10 @@
               <h2 class="tm-block-title">Search for the nearest k neighbors</h2>
               <form method="post" action="search_result.php" class="tm-signup-form row">
                 <div class="form-group col-12">
-                  <label for="name">Input your icd9</label>
+                  <label for="name">Input ICD9 in format xxx.x or xxx <a href="list.php">(Click here to check for valid icd9)</a> </label>
                   <input id="name" name="name" type="text" class="form-control validate" required pattern=[0-9][0-9][0-9].[0-9]|[0-9][0-9][0-9] oninvalid="this.setCustomValidity('input form : xxx.x or xxx')" oninput="this.setCustomValidity('')"><br>
                   
-                  <label for="name">Input the number of neighbors</label>
+                  <label for="name">Input the number of neighbors ranging from 1 to 100</label>
                   <input id="neighbor_num" name="neighbor_num" type="number" class="form-control validate" required pattern=[0-9][0-9][0-9] min="1" max="100" oninvalid="this.setCustomValidity('range : 1~100')" oninput="this.setCustomValidity('')" ><br>
                   
                   <div class="tm-block-h-auto">
@@ -71,8 +71,8 @@
               <h2 class="tm-block-title">Search for the neighbors based on level</h2>
               <form method="post" action="search_result.php" class="tm-signup-form row">
                 <div class="form-group col-12">
-                  <label for="name">Input your icd9</label>
-                  <input id="name" name="name" type="text" class="form-control validate" required pattern=[0-9][0-9][0-9].[0-9] oninvalid="this.setCustomValidity('input form : xxx.x')" oninput="this.setCustomValidity('')"><br>
+                  <label for="name">Input ICD9</label>
+                  <input id="name" name="name" type="text" class="form-control validate" required pattern=[0-9][0-9][0-9].[0-9]|[0-9][0-9][0-9] oninvalid="this.setCustomValidity('input form : xxx.x')" oninput="this.setCustomValidity('')"><br>
                   <Select name="type" class="form-control validate" required>
                     <option value="">Choose the level</option><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option>
                     <option value="4">Level 4</option><option value="5">Level 5</option>
@@ -131,3 +131,4 @@
 
   </body>
 </html>
+

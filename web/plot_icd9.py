@@ -14,7 +14,6 @@ from scipy.spatial.distance import pdist, squareform
 from sklearn.neighbors import NearestNeighbors
 from sklearn.neighbors import KNeighborsClassifier
 # path configuration
-#input_path = '/Users/kyuuhikoji/Applications/XAMPP/xamppfiles/htdocs/template_524⁩/'
 icd9_path = 'txt/common_IM_icd9.csv'
 icd9_name_path = 'txt/IM_icd9_chinese_name.txt'
 distance_matrix_path = 'txt/distance_matrix.txt'
@@ -98,8 +97,8 @@ if __name__ == '__main__':
     #---------------------------------------------          
     icd9_idx = get_icd9_idx(sys.argv[1])
     if(icd9_idx==-1):
-        print(" Failed to find the icd ||")
-        print(" Failed to find the icd9 ")
+        print(" Failed to find the icd9 ||")
+        #print(" Failed to find the icd9 ")
     else:
         mode = (int)(sys.argv[3])
         if(mode==1):

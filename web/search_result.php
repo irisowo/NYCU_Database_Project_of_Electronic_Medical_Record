@@ -2,7 +2,9 @@
 <?php
     include 'header.php';
     // Modify the command to execute python
+    //$user_name = get_current_user();
     $KNN_cmd = "python3 plot_icd9.py";
+    
 ?>
 
 <body id="ResultPage">
@@ -67,7 +69,11 @@
                             // ----------------------block1 : KNN----------------------
                             putenv("PYTHONIOENCODING=utf-8");
                             $command = ("$KNN_cmd $name $neighbor_num $mode 2>&1");
-                            $output = shell_exec($command);
+                            $escaped_command = escapeshellcmd($command);
+                            $output = shell_exec($escaped_command);
+                            /*-----------------*/
+                            
+                            /*-----------------*/
                             $result_array=explode('||',$output);
                             $line1 = 1;
                             echo "<div class='col-12 m-block-col'>
@@ -94,10 +100,10 @@
                                 if( isset($pieces[1]) ){//remove the space on the last line
                                   echo "<tr>";
                                   echo "<td><div class='tm-status-circle ";
-                                  if((float)($pieces[2])<=0.02){
+                                  if((float)($pieces[2])<=0.05){
                                     echo"moving'></div>";
                                   }
-                                  elseif((float)($pieces[2])<=0.04){
+                                  elseif((float)($pieces[2])<=0.1){
                                     echo"pending'></div>";
                                   }
                                   else{
@@ -120,7 +126,8 @@
                               if(count($result_array)>1){                           
                                 foreach ($result_array as $value) {
                                     $pieces = explode(' ',$value);
-                                    if( isset($pieces[1]) && ((strcmp($pieces[0],$name)==0) or (strcmp($pieces[1],$name)==0))){
+                                    
+                                    if( isset($pieces[1]) and ((strcmp($pieces[0],$name)==0) or (strcmp($pieces[1],$name)==0))){
                                       if($line1){  
                                         echo "
                                         <table class='table'>
@@ -157,13 +164,14 @@
                         if( isset($_POST['type']) )
                         {
                             // Get data from post
-                            $name =  filter_var($_POST['name'],FILTER_VALIDATE_FLOAT);
+                            $name =  filter_var($_POST['name'],FILTER_SANITIZE_NUMBER_FLOAT,FILTER_FLAG_ALLOW_FRACTION);
                             $type =  filter_var($_POST['type'],FILTER_VALIDATE_INT);
                             $mode = 2;      
                             //execute python
                             putenv("PYTHONIOENCODING=utf-8");
                             $command = ("$KNN_cmd $name $type $mode 2>&1");
-                            $output = shell_exec($command);
+                            $escaped_command = escapeshellcmd($command);
+                            $output = shell_exec($escaped_command);
                             $result_array=explode('||',$output);
                             $line1 = 1;
                             if( isset($result_array[2])){ //exclude the space line and the error message line
