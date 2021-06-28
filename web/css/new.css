@@ -739,3 +739,27 @@ input[type="checkbox"]:focus {
   padding: 10%;
   margin: 10%;
 }
+/*-----------------------------------------------------------------*/
+/* aside */
+aside{
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	z-index:100000;
+}
+
+.totop{
+  opacity: 0.6;
+	width:44px;
+	height:44px;
+  border-radius:40%;
+	background:rgba(38, 70, 83, 1) url(../img/top2x.png) no-repeat;
+	background-size:200%;
+	background-position:0px 0px;
+}
+
+.totop:hover{
+	background:rgba(38, 70, 83, 1) url(../img/top2x.png) no-repeat;
+	background-size:200%;
+	background-position:-44px 0px;
+}

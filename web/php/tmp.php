@@ -6,7 +6,7 @@ echo "
 ";
 echo "
                 <table class='table order-table'>
-                  <thead>
+                  <thead id = 'tdtop'>
                       <tr>
                           <th scope='col'>English name</th>
                           <th scope='col'>Chinese name</th>

@@ -6,8 +6,13 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="js/list.js"></script>
   </head>
+  
+  <!-- Back to top button -->
+  <!--end of BackTo Topo Button-->
+
   <body id="List">
     <div class="" id="home">
         <!-- Header block-->
@@ -39,7 +44,7 @@
                 </li>
                  <!--nav item2-->
                 <li class="nav-item">
-                  <a class="nav-link active" href="d3.php">
+                  <a class="nav-link active" href="list.php">
                     <i class="far fa-user"></i> List
                   </a>
                 </li>
@@ -49,7 +54,6 @@
           </div>
         </nav>
         <!--end of Header block-->
-        
         <!-- Block-->
         <div class="container mt-5">
         <div class="row tm-content-row">
@@ -71,14 +75,6 @@
                     <option value="IM"<?php if($page_type == "IM"){ echo " selected"; }?>>內科</option>
                 </select>
               </form>
-              <!--
-              <select class="custom-select" id="dropBox" onchange="changeSelect()">
-                <option value="0">內科</option>
-                <option value="1">--</option>
-                <option value="2">--</option>
-              </select>
-              -->
-
             </div>
             <!--search block-->
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
@@ -99,10 +95,17 @@
                   default: include_once('php/tmp.php'); break;
               }
             ?>
+            <!--aside-->
+            <aside>
+              <a href="#tdtop">
+                <div class="totop"></div>
+              </a>
+            </aside>
             <!---end of table-->
           </div>
           <!---end of div class for changing text-->
   </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
