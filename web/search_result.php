@@ -2,9 +2,7 @@
 <?php
     include 'header.php';
     // Modify the command to execute python
-    $user_name = get_current_user();
     $KNN_cmd = "python3 plot_icd9.py";
-    $Association_rule_cmd = "python3 association.py";
 ?>
 
 <body id="ResultPage">
@@ -60,14 +58,13 @@
                     <h2 class="tm-block-title2">Result </h2>
                     <?php
                         $message = ""; // error message
-                        //MODE 1: input k
+                        // ----------------------MODE 1: input k----------------------
                         if( isset($_POST['neighbor_num']) )
                         {
-                            $name =  $_POST['name'];
-                            $neighbor_num = $_POST['neighbor_num'];
+                            $name =  filter_var($_POST['name'],FILTER_SANITIZE_NUMBER_FLOAT,FILTER_FLAG_ALLOW_FRACTION);
+                            $neighbor_num =  filter_var($_POST['neighbor_num'],FILTER_VALIDATE_INT);
                             $mode = 1;
-
-                            // -----------block1---------------
+                            // ----------------------block1 : KNN----------------------
                             putenv("PYTHONIOENCODING=utf-8");
                             $command = ("$KNN_cmd $name $neighbor_num $mode 2>&1");
                             $output = shell_exec($command);
@@ -77,14 +74,15 @@
                                   <div class='tm-bg-primary-dark tm-block tm-block-h-auto tm-block-taller tm-block-scroll'>
                                   <table class='table'>";
                             if(count($result_array)>2){
-                              echo "    <thead>
-                                        <tr>
-                                            <th scope='col'>icd9</th>
-                                            <th scope='col'>name</th>
-                                            <th scope='col'>distance</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>";
+                              echo "
+                                    <thead>
+                                      <tr>
+                                          <th scope='col'>icd9</th>
+                                          <th scope='col'>name</th>
+                                          <th scope='col'>distance</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>";
                             }
                             foreach ($result_array as $value) {
                                 if($line1){
@@ -107,58 +105,60 @@
                                   }
                                   echo"$pieces[0]</td>";
                                   echo"<td><b>$pieces[1]</b></td>
-                                        <td><b>$pieces[2]</b></td>
-                                        </tr>";
+                                      <td><b>$pieces[2]</b></td>
+                                      </tr>";
                                 }
                               }
                               echo"</tbody></table></div></div>"; 
 
-                              // -----------block2---------------
-                              $command = ("$Association_rule_cmd $name $neighbor_num $mode 2>&1");                              
-                              $output = shell_exec($command);
-                              $result_array=explode('||',$output);
-                              $line1 = 1;
+                              // ----------------------block2 : association_rule----------------------
+                              $postxt = file_get_contents('txt/association_result.txt');
+                              $result_array = explode("\n",$postxt);
                               echo "<div class='col-12 m-block-col'>
-                                    <div class='tm-bg-primary-dark tm-block tm-block-h-auto tm-block-taller tm-block-scroll'>
-                                    <table class='table'>";
-                              if(count($result_array)>1){
-                                echo "    <thead>
-                                          <tr>
-                                              <th scope='col'>No1_icd9</th>
-                                              <th scope='col'>No2_icd9</th>
-                                              <th scope='col'>Supprt</th>
-                                              <th scope='col'>Confidence</th>
-                                              <th scope='col'>Lift</th>
-                                              
-                                          </tr>
+                                    <div class='tm-bg-primary-dark tm-block tm-block-h-auto tm-block-taller tm-block-scroll'>";
+                              $line1 = 1;      
+                              if(count($result_array)>1){                           
+                                foreach ($result_array as $value) {
+                                    $pieces = explode(' ',$value);
+                                    if( isset($pieces[1]) && ((strcmp($pieces[0],$name)==0) or (strcmp($pieces[1],$name)==0))){
+                                      if($line1){  
+                                        echo "
+                                        <table class='table'>
+                                          <thead>
+                                              <tr>
+                                                  <th scope='col'>No1_icd9</th>
+                                                  <th scope='col'>No2_icd9</th>
+                                                  <th scope='col'>Supprt</th>
+                                                  <th scope='col'>Confidence</th>
+                                                  <th scope='col'>Lift</th>                                   
+                                              </tr>
                                           </thead>
                                           <tbody>";
-                              }
-                              foreach ($result_array as $value) {
-                                  if($line1){
-                                    print " <h2 class='tm-block-title'> ".$value." &nbsp&nbsp </h2>";   
-                                    $line1 = 0;
-                                    continue;
-                                  }
-                                  $pieces = explode('>', $value);
-                                  if( isset($pieces[1]) ){//remove the space on the last line
-                                    echo "<tr>";
-                                    echo"<td>$pieces[0]</td>";
-                                    echo"<td><b>$pieces[1]</b></td>
-                                         <td><b>$pieces[2]</b></td>
-                                         <td><b>$pieces[3]</b></td>
-                                         <td><b>$pieces[4]</b></td>
-                                         </tr>";
-                                  }
+                                        echo " <h2 class='tm-block-title'> Association Result &nbsp&nbsp </h2>";   
+                                        $line1 = 0;
+                                        continue;
+                                      }
+                                      echo "<tr>";
+                                      echo"<td>$pieces[0]</td>";
+                                      echo"<td><b>$pieces[1]</b></td>
+                                          <td><b>$pieces[2]</b></td>
+                                          <td><b>$pieces[3]</b></td>
+                                          <td><b>$pieces[4]</b></td>
+                                          </tr>";
+                                    }
+                                }
+                                if ($line1 == 1 ){
+                                  echo " <h2 class='tm-block-title'>No Association Result &nbsp&nbsp </h2>"; 
                                 }
                                 echo"</tbody></table></div></div>"; 
+                              }
                           }
-                        //MODE 2: select level
+                        // ----------------------MODE 2: select level ----------------------
                         if( isset($_POST['type']) )
                         {
                             // Get data from post
-                            $name =  $_POST['name'];
-                            $type = $_POST['type'];
+                            $name =  filter_var($_POST['name'],FILTER_VALIDATE_FLOAT);
+                            $type =  filter_var($_POST['type'],FILTER_VALIDATE_INT);
                             $mode = 2;      
                             //execute python
                             putenv("PYTHONIOENCODING=utf-8");
