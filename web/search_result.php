@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-xl">
           <div class="container h-100">
             <a class="navbar-brand" href="index.php">
-              <h1 class="tm-site-title mb-0">Search page</h1>
+              <h1 class="tm-site-title mb-0">共 病 關 係 分 析 平 台</h1>
             </a>
             <button
               class="navbar-toggler ml-auto mr-0"

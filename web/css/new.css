@@ -304,6 +304,15 @@ thead {
   color: #fff;
   margin-bottom: 10px;
 }
+.form-group label a {
+  color:  #BAD8DA;
+  margin-bottom: 10px;
+}
+.form-group label a:hover {
+  color: #f5a623;
+  margin-bottom: 10px;
+}
+
 .tm-hide-sm {
   display: block;
 }

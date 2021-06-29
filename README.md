@@ -24,9 +24,9 @@
 ## **PYTHON** 
 ### **plot_icd9.py**
 * `讀取distance_matrix.txt`
+* `distance_matrix.txt 來自 plot_icd9(日期).ipynb 輸出`
 * `假設 /txt/common_IM_icd9.txt 存100筆常見代碼
-      /txt/IM_icd9_chinese_name存對應的100筆icd9的中文`
-* `因為存成 condensed matrix形式，/txt/distance_matrix.txt，有 100+99+...+1 項距離，是 plot_icd9(日期).ipynb 輸出的結果`
-
+      /txt/IM_icd9_chinese_name則存對應的100筆icd9的中文`
+* `因為存成 condensed matrix形式，/txt/distance_matrix.txt 會有 100+99+...+1 項距離`
 
 ###### tags: `專題`
