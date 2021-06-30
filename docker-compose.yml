@@ -1,0 +1,11 @@
+# Use root/example as user/password credentials
+version: '3.1'
+services:
+  qqpr_web:
+    build:
+      context: web
+      dockerfile: dockerfile
+    image: nhird_web_image
+    container_name: nhird_web_container
+    ports:
+      - 6010:80

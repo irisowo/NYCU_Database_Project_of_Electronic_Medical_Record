@@ -1,0 +1,19 @@
+FROM php:7.1-apache
+COPY . /var/www/html/
+RUN apt-get update && \
+    apt-get install -y -qq \
+        libjpeg62-turbo-dev \
+        apt-transport-https \
+        libfreetype6-dev \
+        libmcrypt-dev \
+        libpng-dev \
+        libssl-dev 
+RUN chown -R www-data:www-data /var/www
+RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/
+RUN docker-php-ext-install -j$(nproc) gd
+RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli \
+    && a2enmod headers \
+    && sed -ri -e 's/^([ \t]*)(<\/VirtualHost>)/\1\tHeader set Access-Control-Allow-Origin "*"\n\1\2/g' /etc/apache2/sites-available/*.conf
+RUN apt-get update && apt-get install -y python3 python3-pip
+RUN pip3 install -r requirements.txt
+EXPOSE 80
