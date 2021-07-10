@@ -1,15 +1,7 @@
 <!DOCTYPE html>
   <?php
-      include 'header.php';
+      include 'head.html';
   ?>
-
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/list.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="js/list.js"></script>
-  </head>
-  
   <!-- Back to top button -->
   <!--end of BackTo Topo Button-->
 
@@ -58,7 +50,7 @@
         <div class="container mt-5">
         <div class="row tm-content-row">
           <div class="col-12 tm-block-col">
-            <!--classification block-->
+            <!------classification block------>
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
               <h2 class="tm-block-title">選擇分類</h2>
               <p class="text-white">科別</p>
@@ -71,12 +63,12 @@
               ?>
               <form name="page_type" action="" method="post">
                 <select class ="custom-select" name="page_type" id="dropbox" onchange="this.form.submit()">
-                    <option value="--"<?php if($page_type == "--"){ echo " selected"; }?>>--</option>
+                    <option value="--"<?php if($page_type == "--"){ echo " selected"; }?>>請選擇科別</option>
                     <option value="IM"<?php if($page_type == "IM"){ echo " selected"; }?>>內科</option>
                 </select>
               </form>
             </div>
-            <!--search block-->
+            <!------search block------>
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
               <h2 class="tm-block-title">查詢任一欄位資料</h2>              
               <form method="post" action="" class="tm-signup-form row">
@@ -86,24 +78,19 @@
                 </div>
               </form>
             </div>
-            <!--end of search block-->
+
             <!---div class for changing text-->
             <?php
               switch($page_type){
-                  case '--': include_once('php/tmp.php'); break;
+                  case '--': break;
                   case 'IM': include_once('php/IM.php'); break;
-                  default: include_once('php/tmp.php'); break;
+                  default: break;
               }
             ?>
             <!--aside-->
-            <aside>
-              <a href="#tdtop">
-                <div class="totop"></div>
-              </a>
-            </aside>
-            <!---end of table-->
+            <!---end of div class for changing text-->
           </div>
-          <!---end of div class for changing text-->
+        </div>
   </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

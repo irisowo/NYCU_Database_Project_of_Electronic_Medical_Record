@@ -1,7 +1,20 @@
 <!DOCTYPE html>
-<?php
-    include 'header.php';
-?>
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>ICD9 relation</title>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      />
+
+      <link rel="stylesheet" href="css/fontawesome.min.css" />
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <link rel="stylesheet" href="css/new.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <script src="js/list.js"></script>
+  </head>
 
   <body id="SearchPage">
     <div class="" id="home">
@@ -45,72 +58,73 @@
       <div class="container mt-5">
         <div class="row tm-content-row">
           <div class="col-12 tm-block-col">
-            <!--block1-->
+            <!--------------------block1-------------------->
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
-              <h2 class="tm-block-title">Search for the nearest k neighbors</h2>
+              <h2 class="tm-block-title">搜尋 k 個相似共病</h2>
               <form method="post" action="search_result.php" class="tm-signup-form row">
                 <div class="form-group col-12">
-                  <label for="name">Input ICD9 in format xxx.x or xxx <a href="list.php">(Click here to check for valid icd9)</a> </label>
+                  <label for="name">輸入 ICD9 <a href="list.php"><p>(xxx.x or xxx)</p></a> </label>
                   <input id="name" name="name" type="text" class="form-control validate" required pattern=[0-9][0-9][0-9].[0-9]|[0-9][0-9][0-9] oninvalid="this.setCustomValidity('input form : xxx.x or xxx')" oninput="this.setCustomValidity('')"><br>
                   
-                  <label for="name">Input the number of neighbors ranging from 1 to 100</label>
+                  <label for="name">輸入 k <p> (ranging from 1 to 100)</p> </label>
                   <input id="neighbor_num" name="neighbor_num" type="number" class="form-control validate" required pattern=[0-9][0-9][0-9] min="1" max="100" oninvalid="this.setCustomValidity('range : 1~100')" oninput="this.setCustomValidity('')" ><br>
                   
                   <div class="tm-block-h-auto">
-                    <button type="submit" class="btn btn-primary btn-block text-uppercase">
+                    <button type="submit" class="btn btn-primary btn-block btn-outline-info text-uppercase">
                       Submit
                     </button>
                   </div>
                 </div>
               </form>
             </div>
-            <!--end of block1-->
+            <!--------------------end of block1-------------------->
             <div class="container mt-5"></div>
-            <!-- block2-->
+
+            <!-----------------------block2------------------------>
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
-              <h2 class="tm-block-title">Search for the neighbors based on level</h2>
-              <form method="post" action="search_result.php" class="tm-signup-form row">
-                <div class="form-group col-12">
-                  <label for="name">Input ICD9</label>
-                  <input id="name" name="name" type="text" class="form-control validate" required pattern=[0-9][0-9][0-9].[0-9]|[0-9][0-9][0-9] oninvalid="this.setCustomValidity('input form : xxx.x')" oninput="this.setCustomValidity('')"><br>
-                  <Select name="type" class="form-control validate" required>
-                    <option value="">Choose the level</option><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option>
-                    <option value="4">Level 4</option><option value="5">Level 5</option>
-                  </Select>
-                  <br>
-                  <div class="tm-block-h-auto">
-                    <button type="submit" class="btn btn-primary btn-block text-uppercase">
-                      Submit
-                    </button>
+              <!------select block------>
+              <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                <h2 class="tm-block-title">選擇分類</h2>
+                <p class="text-white">科別</p>
+
+                <?php
+                $page_type = null;
+                if(isset($_POST['page_type'])){
+                    $page_type = $_POST['page_type'];
+                }
+                ?>
+                <form name="page_type" action="" method="post">
+                  <select class ="custom-select" name="page_type" id="dropbox" onchange="this.form.submit()">
+                      <option value="--"<?php if($page_type == "--"){ echo " selected"; }?>>請選擇科別</option>
+                      <option value="IM"<?php if($page_type == "IM"){ echo " selected"; }?>>內科</option>
+                  </select>
+                </form>
+              </div>
+              <!------select block------>
+
+              <!------search block------>
+              <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                <h2 class="tm-block-title">查詢任一欄位資料</h2>              
+                <form method="post" action="" class="tm-signup-form row">
+                  <div class="form-group col-12">
+                    <label for="name">搜尋：</label>
+                    <input type="search" class="light-table-filter form-control validate" data-table="order-table" placeholder="請輸入關鍵字">
                   </div>
-                </div>
-              </form>
+                </form>
+              </div>
+              <!------end of search block------>
+
+              <!---div class for changing text-->
+              <?php
+                switch($page_type){
+                    case '--':  break;
+                    case 'IM': include_once('php/IM.php');
+                    default: break;
+                }
+              ?>
+              <!--aside-->
             </div>
-            <!-- end_block2-->
-            <div class="container mt-5"></div>
-            <!-- block3
-            <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
-              <h2 class="tm-block-title">Picture </h2>
-              <form action="index.php" method="post" class="tm-signup-form row">
-                <div class="form-group col-lg-6">
-                  <label for="name1">Input the first icd9</label>
-                  <input id="name1" name="name1" type="text" class="form-control validate"/>
-                </div>
-
-                <div class="form-group col-lg-6">
-                  <label for="name2">Input the second icd9</label>
-                  <input id="name2" name="name2" type="text" class="form-control validate"/>
-                  <br>
-                </div>
-
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary btn-block text-uppercase">
-                    Submit
-                  </button>
-                  </div>
-              </form>
-            </div> 
-            end_block3-->
+            <!--------------------end of block2-------------------->
           </div>
         </div>
       </div> 

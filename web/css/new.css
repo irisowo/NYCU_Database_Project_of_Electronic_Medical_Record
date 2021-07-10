@@ -304,11 +304,11 @@ thead {
   color: #fff;
   margin-bottom: 10px;
 }
-.form-group label a {
+.form-group label a, .form-group label p{
   color:  #BAD8DA;
   margin-bottom: 10px;
 }
-.form-group label a:hover {
+.form-group label a p:hover {
   color: #f5a623;
   margin-bottom: 10px;
 }
@@ -751,9 +751,12 @@ input[type="checkbox"]:focus {
 /*-----------------------------------------------------------------*/
 /* aside */
 aside{
-	position:fixed;
-	right:10px;
-	bottom:10px;
+  position: absolute;
+  /*
+	position:fixed;*/
+	right:15px;
+	bottom:0px;
+  
 	z-index:100000;
 }
 
@@ -761,7 +764,7 @@ aside{
   opacity: 0.6;
 	width:44px;
 	height:44px;
-  border-radius:40%;
+  border-radius:10%;
 	background:rgba(38, 70, 83, 1) url(../img/top2x.png) no-repeat;
 	background-size:200%;
 	background-position:0px 0px;
