@@ -1,0 +1,50 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Allergic reaction,過敏反應,995.3,A56
+Ascites,腹水,789.5,A469
+Hypotension,低血壓,458.9,A309
+Acute lung edema,急性肺水腫,518.4,A329
+Acute renal failure with tubular necrosis,急性腎衰竭，併腎小管壞死病灶,584.5,A350
+Atony of bladder,膀胱無張力,596.4,A359
+Bladder cancer,膀胱惡性腫瘤,188.9,A126
+Bladder stone,膀胱結石,594.1,A352
+Cerebrovascular disease,腦血管疾病,437.9,A299
+Chronic glomerulonephritis in membranoproliferative glomerulonephritis,慢性腎絲球腎炎，併膜狀增生性腎絲球腎炎,582.2,A350
+Chronic glomerulonephritis in membranous glomerulonephritis,慢性腎絲球腎炎，併膜狀腎絲球腎炎,582.1,A350
+Chronic glomerulonephritis in rapid progressive glomerulonephritis,慢性腎絲球腎炎，併快速進行性腎絲球腎炎,582.4,A350
+Chronic glomerulonephritis with other specified pathological lesion in kidney,慢性腎絲球腎炎，併其他腎臟病理學上之病灶,582.8,A350
+Chronic pyelonephritis,慢性腎盂腎炎,590.0,A351
+Complications of transplanted organ,移植器官併發症,996.8,A54
+Cyst of kidney、acquired,後天性腎囊腫,593.2,A359
+Cystic kidney disease,囊腫性腎病,753.1,A449
+Cystitis,膀胱炎,595.9,A353
+Diabetes with ophthalmic manifestations,併有眼病表徵之糖尿病,250.5,A181
+Diabetic retinopathy,糖尿病性視網膜病變,362.0, A239
+Infection and inflammatory reaction due to internal prosthetic device 、implant、and graft,體內裝置物、植入及移植物所致之感染及發炎反應,996.6,A54
+Mechanical complication of other specified prosthetic device、implant、and graft,其他特定裝置物、植入及移植物所致之機械性併發症,996.5,A54
+Hepatorenal syndrome,肝腎徵候群,572.4,A349
+Hyperosmolality and /or hypernatremia,高滲透壓及／或血鈉過高症,276.0,A189
+Hyperpotassaemia,血鉀過高症,276.7,A189
+Hypopotassaemia,血鉀過低症,276.8,A189
+Hyposmolality and /or hyponatremia,低滲透壓及／或血鈉過低症,276.1,A189
+Malignant neoplasm of kidney、except pelvis,腎臟惡性腫瘤，腎盂除外,189.0,A129
+Multiple myeloma,多發性骨髓瘤,203.0,A149
+Amyloidosis,類澱粉病,277.3,A189
+Nephrotic syndrome with other specified pathological lesion in kidney,腎病徵候群，併其他特定腎臟病理學之病灶,581.8,A350
+Nephrotic syndrome in focal segmental glomerular sclerosis,腎病徵候群，併局部區段性腎絲球硬化,581.1,A350
+Nephrotic syndrome in membranoproliferative glomerulonephritis,腎病徵候群，併膜狀增生性腎絲球腎炎,581.2,A350
+Nephrotic syndrome in minimal change disease,腎病徵候群，併微量變化絲球腎炎病灶,581.3,A350
+Nephrotic syndrome in proliferative glomerulonephritis,腎病徵候群，併增生性腎絲球腎炎,581.0,A350
+Obstructive uropathy,阻塞性尿路病變,599.6,A359
+Peritonitis,腹膜炎,567.9,A349
+Pure hypercholesterolaemia,純高膽固醇血症,272.0,A182
+Pure hypertriglyceridemia,純高三酸甘油脂血症,272.1,A182
+Renal and perinephric abscess,腎臟及腎周圍膿瘍,590.2,A351
+Other specified disorders of kidney and ureter,腎及輸尿管之其他特定疾患(593.81 : 腎血管之疾患),593.8,A359
+Renal or perirenal hemorrhage (resulting from a surgical procedure),"併發於醫療處置中之出血,血腫或血清腫(原998.11:特指腎臟及腎周圍出血)",998.1,A54
+Renal osteodystrophy,腎性骨發育不全,588.0,A350
+Renal pelvis cancer,腎盂惡性腫瘤,189.1,A129
+Secondary hyperparathyroidism,續發性副甲狀腺功能亢進,588.8,A350
+Tuberculosis of kidney,腎結核病,016.0,A025
+Ureter stone,輸尿管結石,592.1,A352
+Vascular access occlusion ( arteriovenous shunt ),動靜脈廔管之血管通路阻塞,996.1,A54
+Vesicoureteral reflux,膀胱輸尿管尿液倒流,593.7,A359

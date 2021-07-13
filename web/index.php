@@ -1,20 +1,7 @@
 <!DOCTYPE html>
-  <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <title>ICD9 relation</title>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto:400,700"
-      />
-
-      <link rel="stylesheet" href="css/fontawesome.min.css" />
-      <link rel="stylesheet" href="css/bootstrap.min.css" />
-      <link rel="stylesheet" href="css/new.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <script src="js/list.js"></script>
-  </head>
+  <?php
+      include 'head.html';
+  ?>
 
   <body id="SearchPage">
     <div class="" id="home">
@@ -95,8 +82,19 @@
                 ?>
                 <form name="page_type" action="" method="post">
                   <select class ="custom-select" name="page_type" id="dropbox" onchange="this.form.submit()">
-                      <option value="--"<?php if($page_type == "--"){ echo " selected"; }?>>請選擇科別</option>
+                      <option value="--"<?php if($page_type == "全部"){ echo " selected"; }?>>可選擇科別</option>
                       <option value="IM"<?php if($page_type == "IM"){ echo " selected"; }?>>內科</option>
+                      <option value="FM"<?php if($page_type == "FM"){ echo " selected"; }?>>家醫科</option>
+                      <option value="S"<?php if($page_type == "S"){ echo " selected"; }?>>外科</option>
+                      <option value="Nephro"<?php if($page_type == "Nephro"){ echo " selected"; }?>>腎臟科</option>
+                      <option value="Derma"<?php if($page_type == "Derma"){ echo " selected"; }?>>皮膚科</option>
+                      <option value="ENT"<?php if($page_type == "ENT"){ echo " selected"; }?>>耳鼻喉科</option>
+                      <option value="NM"<?php if($page_type == "NM"){ echo " selected"; }?>>神經內科</option>
+                      <option value="NS"<?php if($page_type == "NS"){ echo " selected"; }?>>神經外科</option>
+                      <option value="Ortho"<?php if($page_type == "Ortho"){ echo " selected"; }?>>骨科</option>
+                      <option value="GYN"<?php if($page_type == "GYN"){ echo " selected"; }?>>婦產科</option>
+                      <option value="Oph"<?php if($page_type == "Oph"){ echo " selected"; }?>>眼科</option>
+                      <option value="Psy"<?php if($page_type == "Psy"){ echo " selected"; }?>>精神科</option>
                   </select>
                 </form>
               </div>
@@ -117,10 +115,21 @@
               <!---div class for changing text-->
               <?php
                 switch($page_type){
-                    case '--':  break;
-                    case 'IM': include_once('php/IM.php');
-                    default: break;
-                }
+                  case '--': include_once('php/All.php'); break;
+                  case 'IM': $ICD9_CSV = "./txt/Other/IM.csv"; include_once('php/Template.php'); break;
+                  case 'FM': $ICD9_CSV = "./txt/Other/FM.csv"; include_once('php/Template.php'); break;
+                  case 'S': $ICD9_CSV = "./txt/Other/S.csv"; include_once('php/Template.php'); break;
+                  case 'Nephro': $ICD9_CSV = "./txt/Other/Nephro.csv"; include_once('php/Template.php'); break;
+                  case 'Derma': $ICD9_CSV = "./txt/Other/Derma.csv"; include_once('php/Template.php'); break;
+                  case 'ENT': $ICD9_CSV = "./txt/Other/ENT.csv"; include_once('php/Template.php'); break;
+                  case 'NM': $ICD9_CSV = "./txt/Other/NM.csv"; include_once('php/Template.php'); break;
+                  case 'NS': $ICD9_CSV = "./txt/Other/NS.csv"; include_once('php/Template.php'); break;
+                  case 'Ortho': $ICD9_CSV = "./txt/Other/Ortho.csv"; include_once('php/Template.php'); break;
+                  case 'GYN': $ICD9_CSV = "./txt/Other/GYN.csv"; include_once('php/Template.php'); break;
+                  case 'Oph': $ICD9_CSV = "./txt/Other/Oph.csv"; include_once('php/Template.php'); break;
+                  case 'Psy': $ICD9_CSV = "./txt/Other/Psy.csv"; include_once('php/Template.php'); break;
+                  default: include_once('php/All.php'); break;
+              }
               ?>
               <!--aside-->
             </div>

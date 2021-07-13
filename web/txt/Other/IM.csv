@@ -1,0 +1,306 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A-code
+Abdominal pain,腹痛,789.0,A464
+Acne vulgaris,痤瘡,706.1,A429
+Acute appendicitis,急性闌尾炎,540.9,A342
+Acute bronchitis,急性支氣管炎,466.0,A320
+Acute confusional state,急性譫妄,293.0,A213
+Acute conjuntivitis,急性結膜炎,372.0,A233
+Acute gastroenteritis,急性胃腸炎,558.9,A349
+Acute glomerulonephritis,急性腎絲球腎炎,580.9,A350
+Acute myocardial infarction,急性心肌梗塞,410.9,A270
+Acute pancreatitis,急性胰臟炎,577.0,A349
+Acute pyelonephritis,急性腎盂腎炎,590.1,A351
+Acute renal failure,急性腎衰竭,584.9,A350
+Acute sinusitis,急性鼻竇炎,461.9,A312
+Acute tonsillitis,急性扁桃腺炎,463,A310
+Acquired immunodeficiency syndrome (AIDS),後天免疫不全症候群,042,A049
+Alcoholic drunkenness,酒醉,303.0,A215
+Alcoholic gastritis,酒精性胃炎,535.3,A349
+Alcoholic liver cirrhosis,酒精性肝硬化,571.2,A347
+Alcoholic liver damage,酒精性肝損害,571.3,A347
+Allergic rhinitis,過敏性鼻炎,477.9,A319
+Anemia,貧血,285.9,A200
+Anemia (acute blood loss),急性出血後貧血,285.1,A200
+Anemia (folate deficiency),葉酸缺乏性貧血,281.2,A200
+Anemia (iron deficiency),缺鐵性貧血,280.9,A200
+Anemia (vitamin B12 deficiency),維生素Ｂ１２缺乏性貧血,281.1,A200
+Angina pectoris,心絞痛,413.9,A279
+Ankylosing spondylitis,僵直性脊椎炎,720.0,A433
+Anorexia,厭食,783.0,A469
+Anxiety state,焦慮狀態,300.0,A214
+Anxiety (stress reaction),焦慮(壓力反應),308.0,A219
+Arrhythmia,心律不整,427.9,A281
+"Arthritis, post-traumatic",創傷後關節炎,716.1,A431
+Arthropathy,關節病變,716.9,A431
+Ascariasis,蛔虫病,127.0,A076
+Asthma,氣喘,493.9,A323
+Atherosclerosis,動脈粥樣硬化,440.9,A300
+Atopic dermatitis,異位性皮膚炎,691.8,A429
+Atrial fibrillation and flutter,心房顫動及撲動,427.3,A281
+Backache,背痛,724.5,A434
+Bed sore,褥瘡,707.0,A429
+Behcet's syndrome,畢賽氏徵候群,136.1,A079
+"Peripheral vertigo, unspecified",末梢眩暈,386.1,A249
+Benign prostate hypertrophy,攝護腺（前列腺）肥大,600.0,A600
+Benign breast tumor,乳房良性腫廇,217,A151
+Bronchiectasis,支氣管擴張症,494.0,A324
+Cancer of bone and cartilage,骨骼及關節軟骨之惡性腫瘤,170.9,A110
+"Cancer of breast, female",女性乳房惡性腫瘤,174.9,A113
+Cancer of cervix,子宮頸惡性腫瘤,180.9,A120
+Cancer of colon,結腸惡性腫瘤,153.9,A093
+Cancer of esophagus,食道惡性腫瘤,150.9,A090
+Cancer of gastrointestinal and peritoneum,消化道及腹膜之惡性腫瘤,159.9,A099
+Cancer of lung,支氣管及肺惡性腫瘤,162.9,A101
+Cancer of mouth,口部惡性腫瘤,145.9,A08
+Cancer of ovary,卵巢惡性腫瘤,183.0,A123
+Cancer of pancreas,胰臟惡性腫瘤,157.9,A096
+Cancer of prostate,攝護腺(前列腺)之惡性腫瘤,185,A124
+Cancer of rectum,直腸惡性腫瘤,154.1,A094
+Cancer of stomach,胃惡性腫瘤,151.9,A091
+Cancer of thyroid gland,甲狀腺惡性腫瘤,193,A139
+Cancer of unknown primary,原發部位未明之惡性腫瘤,199.1,A139
+Candidiasis,念珠菌病,112.9,A071
+Candidiasis (oral thrush),口腔念珠菌病(鵝口瘡),112.0,A071
+Carpal tunnel syndrome,腕隧徵候群,354.0,A229
+Cellulitis and abscess,蜂窩組織炎及膿瘍,682.9,A420
+Cerebral hemorrhage,大腦出血,431,A291
+Cerebral infarction,腦梗塞,434.9,A292
+Cerebrovascular accident,腦血管意外,436,A293
+"Cerebrovascular accident, old",陳舊性腦血管意外,438.9,A299
+Cervicitis,子宮頸炎,616.0,A373
+Chest pain,胸痛,786.5,A469
+Chickenpox,水痘,052.9,A049
+Cholecystitis,膽囊炎,575.1,A348
+Chronic bronchitis,慢性支氣管炎,491.9,A323
+Chronic glomerulonephritis,慢性腎絲球腎炎,582.9,A350
+"Chronic hepatitis, unspecified",慢性肝炎,571.4,A347
+Chronic obstructive pulmonary disease (COPD),慢性阻塞性肺疾病,496,A325
+Chronic renal failure (End stage renal disease),慢性腎衰竭,585,A350
+Chronic rhinitis,慢性鼻炎,472.0,A314
+Chronic sinusitis,慢性鼻竇炎,473.9,A314
+Cluster headache,叢集型偏頭痛,346.2,A229
+Common cold,感冒,460,A312
+Congestive heart failure,鬱血性心臟衰竭,428.0,A289
+Constipation,便秘,564.0,A346
+"Contact dermatitis and other eczema, unspecified cause",接觸性皮膚炎及其他濕疹,692.9,A429
+Convulsion,痙攣,780.3,A469
+Coronary artery disease,冠狀動脈疾病,414.0,A279
+Other musculoskeletal symptoms referable to limbs,"歸因於四肢之其他肌肉骨骼徵候(肢體腫脹, 痙攣...)",729.8,A435
+Cushing's syndrome,庫興氏徵候群,255.0,A189
+"Cystitis, acute",急性膀胱炎,595.0,A353
+Deep vein thrombosis,深部靜脈栓塞,453.8,A303
+"Dementia, presenile",早發性老年癡呆症,290.1,A210
+"Dementia, senile",老年癡呆症,290.0,A210
+Depressive disorder,憂鬱症,311,A219
+Dermatitis herpetiform,疹狀皮膚炎,694.0,A429
+Dermatomyositis,肌皮炎,710.3,A431
+Diabetes mellitus,糖尿病,250.0,A181
+Diaper rash,尿布疹,691.0,A429
+Dizziness and giddiness,眩暈,780.4,A469
+Drug abuse,藥物濫用,305.9,A219
+Drug dependence,藥癮,304.9,A216
+Drug eruption,藥疹,693.0,A429
+Drug poisoning,藥物中毒,977.9,A530
+Drug psychosis,藥物所致之精神異常,292.9,A213
+Drug withdrawal syndrome,藥物戒斷徵候群,292.0,A213
+Duodenal ulcer,十二指腸潰瘍,532.9,A341
+Dysfunctional uterine bleeding (DUB),功能異常性子宮出血,626.8,A379
+Dysmenorrhea,痛經症,625.3,A379
+Dyspnea and respiratory abnormalities,呼吸困難及呼吸異常,786.0,A469
+Edema,水腫,782.3,A469
+Electrolyte / fluid disease,電解質及體液失調症,276.9,A189
+"Elevation of ALT, AST, or LDH",胺基交換    或乳酸脫氫    之非特定性上升,790.4,A469
+Emphysema,肺氣腫,492.8,A323
+Epilepsy,癲癇,345.9,A225
+Erysipelas,丹毒,035,A035
+Erythema multiforme,多形性紅斑,695.1,A429
+Erythema nodosum,結節性紅斑,695.2,A429
+Esophageal varices,食道靜脈曲張,456.1,A309
+Facial palsy / Bell's palsy,貝爾氏麻痺（顏面神經麻痺）,351.0,A229
+Fatty liver,脂肪肝,571.8,A347
+Fever of unknown origin,不明熱,780.6,A460
+Fibrositis / rheumatism,纖維組織炎/風濕症,729.0,A435
+Frozen shoulder,冷凍肩 ( 五十肩 ),726.0,A435
+Functional disorders of bladder,膀胱功能障礙,596.5,A359
+Functional gastrointestinal disorder,腸胃功能性障礙,536.9,A349
+Furuncle/carbuncle,癰及癤,680.9,A420
+Gait abnormality,步態異常,781.2,A469
+Gallstone,膽囊結石,574.2,A348
+Gangrene,壞疽,785.4,A469
+Gastric ulcer,胃潰瘍,531.9,A341
+Gastritis / gastroduodenitis,胃炎及胃十二指腸炎,535.5,A349
+Gastrointestinal bleeding,胃腸道出血,578.9,A349
+Gingival / periodontal disease,齒齦與牙周疾病,523.9,A330
+Goiter,甲狀腺腫,240.9,A180
+Gonorrhea,淋病,098.0,A061
+Gouty arthritis,痛風性關節炎,274.0,A189
+Gouty nephropathy,痛風性腎病變,274.1,A189
+Headache,頭痛,784.0,A469
+Hearing impairment,聽覺障礙,389.9,A241
+Heart disease,診斷欠明之心臟疾病,429.9,A289
+Heart failure,心臟衰竭,428.9,A289
+Heart murmur,心雜音,785.2,A461
+Hematuria,血尿,599.7,A359
+Hemiplegia,半身麻痺,342.9,A229
+Hemolytic anemia (acquired),後天性溶血性貧血,283.9,A200
+Hemoptysis,咳血,786.3,A469
+Hemorrhoid,痔瘡,455.6,A305
+"hepatitis B without mention of hepatic coma, acute or unspecified, without mention of hepatitis delta",急性或未明示之B型病毒性肝炎，未提及肝昏迷，未提及delta型肝炎Viral,070.3,A046
+Other specified viral hepatitis without mention of hepatic coma,其他特定病毒性肝炎，未提及肝昏迷,070.5,A046
+Hepatoma,"肝惡性腫瘤,原發性",155.0,A095
+Hepatomegaly,肝腫大,789.1,A469
+Herniation intervertebral disc,椎間盤凸突出,722.2,A434
+Herpes simplex,單純性泡疹,054.9,A049
+Herpes zoster,帶狀泡疹,053.9,A049
+Hiatal hernia,橫膈疝氣,553.3,A343
+Hoshimoto's thyroiditis,橋本氏慢性淋巴球性甲狀腺炎,245.2,A180
+Hydronephrosis,腎水腫,591,A359
+Hyperlipidemia,高脂血症,272.4,A189
+"Hypertension, essential",本態性高血壓,401.9,A269
+Unspecified secondary hypertension,次發性高血壓,405.9,A269
+Hypertensive heart disease,高血壓性心臟病,402.9,A260
+Hypertensive renal disease,高血壓性腎臟疾病,403.9,A269
+Hyperthyroidism,甲狀腺亢進,242.9,A180
+Hypochondriasis,慮病症,300.7,A214
+Hypothyroidism,甲狀腺功能低下,244.9,A180
+Hysteria,歇斯底里,300.1,A214
+Impetigo,膿庖症,684,A420
+Other specified disorders of penis,其他特定陰莖之疾患(器質性陽痿),607.8,A369
+Psychosexual dysfunction,性心理性功能障礙(精神性陽萎),302.7,A219
+Infectious diarrhea,感染性腹瀉,009.2,A016
+Influenza,流行性感冒,487.1,A322
+Inguinal hernia,腹股溝疝氣,550.9,A343
+Sleep disturbance,睡眠障礙,780.5,A469
+Irritable bowel syndrome,躁性大腸徵候群,564.1,A346
+Ischemic heart disease,缺血性心臟病,414.9,A279
+Jaundice,黃疸,782.4,A469
+Joint pain,關節痛,719.4,A432
+Joint stiffness,關節僵直,719.5,A432
+Joint swelling,關節腫脹,719.0,A432
+Juvenile rheumatoid artritis (polyarticular),多發性少年期類風濕性關節炎,714.3,A430
+Keloid scar,瘢瘤,701.4,A429
+Lipoma,脂肪瘤,214.1,A159
+Liver abscess,肝膿瘍,572.0,A349
+Liver cirrhosis,肝硬化,571.5,A347
+Low back pain,下背痛,724.2,A434
+Lymphadenitis,淋巴腺炎,289.3,A209
+Lymphadenopathy,淋巴腺病變,785.6,A469
+Lymphoma,淋巴瘤,202.8,A149
+Malaise and fatigue,倦怠及疲勞,780.7,A469
+Malignant melanoma,"皮膚惡性黑色素瘤,未明示部位者",172.9,A111
+Malnutrition,營養不良,263.9,A192
+Manic-depressive psychosis,躁鬱症,296.8,A212
+"Mass, superficial",局部表淺性腫脹或腫塊,782.2,A469
+Measles,麻疹,055.9,A042
+Meniere's disease,梅尼爾氏症,386.0,A249
+"Menigitis, aseptic",無菌性腦膜炎,047.9,A049
+"Meningitis, bacterial",細菌性腦膜炎,320.9,A220
+Menopausal syndrome,停經或女性更年期徵候群,627.2,A379
+Menstruation disorder,月經異常,626.9,A379
+Mental retardation,智能不足,319,A218
+Migraine,偏頭痛,346.9,A229
+Myalgia and myositis,肌痛及肌炎,729.1,A435
+Nausea and vomiting,噁心及嘔吐,787.0,A469
+Nephritis,腎炎,583.9,A350
+Nephrotic syndrome,腎病徵候群,581.9,A350
+"Neuropathy, lower limb",下肢單一神經炎,355.8,A229
+"Neuropathy, upper limb",上肢單一神經炎,354.9,A229
+Neurotic disorder,精神官能症,300.9,A214
+Obesity,肥胖症,278.0,A183
+Obsessive-compulsive disorder,強迫症,300.3,A214
+Old myocardial infarction,陳舊性心肌梗塞,412,A279
+Oral lesion,口腔病灶,528.9,A339
+"Organic psychosis, chronic","器質性腦徵候群, 慢性",294.9,A213
+Osteoarthritis,骨關節炎,715.9,A431
+Osteoporosis,骨質疏鬆症,733.0,A439
+Otitis externa,外耳炎,380.1,A249
+"Otitis media, suppurative",化膿性中耳炎,382.4,A240
+Palpitation,心悸,785.1,A461
+Parkinson’s disease,帕金森氏症,332.0,A221
+Cellulitis and abscess of finger/Onychia and paronychia of finger,手指蜂窩組織炎及膿瘍/手指甲床炎與甲溝炎,681.0,A420
+Cellulitis and abscess of toe/Onychia and paronychia of toe,腳趾之蜂窩組織炎及膿瘍/足趾甲床炎與甲溝炎,681.1,A420
+Paroxysmal supraventricular tachycardia,陣發性心室上心搏過速,427.0,A281
+Pelvic inflammatory disease,骨盆腔發炎,614.9,A372
+Peptic ulcer,消化性潰瘍,533.9,A341
+Embolism and thrombosis of arteries of the extremities,四肢動脈栓塞及血栓症,444.2,A301
+Peripheral neuropathy,末梢神經疾病,356.9,A229
+Peripheral vascular disease,末梢血管疾病,443.9,A302
+Pharyngitis,急性咽喉炎,462,A312
+Phlebitis,靜脈炎,451.9,A303
+Pityriasis versicolor,變色糠疹,111.0,A071
+Plantar fascitiis,其他纖維瘤病,728.7,A435
+Pneumoconiosis,塵肺症,505,A326
+Pneumonia,肺炎,486,A321
+Polymyositis,多發性肌炎,710.4,A431
+Postural hypotension,姿勢性低血壓,458.0,A309
+Proteinuria,蛋白尿,791.0,A469
+Pruritus cutaneous,皮膚搔癢症,698.9,A429
+Psoriasis,牛皮癬,696.1,A429
+Psychophysiological disorder,心理生理功能障礙,306.9,A217
+Purpura,紫斑症,287.2,A209
+"Radiculitis, cervicobrachial",頸臂神經根炎,723.4,A434
+"Radiculitis, lumbosacral",腰胝骨神經根炎,724.4,A434
+Raynaud's phenomenon,雷諾氏徵候群,443.0,A302
+Reflux esophagitis,食道炎,530.1,A340
+Regional enteritis,局部性腸炎,555.9,A349
+Renal stone,腎結石,592.0,A352
+Rheumatic fever,風濕熱,390,A250
+Rheumatic heart disease,風濕性心臟病,398.9,A251
+Rheumatoid arthritis,類風濕關節炎,714.0,A430
+Rubella,德國麻疹,056.9,A043
+Salmonellosis,沙門氏菌病,003.0,A013
+Scabies,疥癬(疥瘡),133.0,A079
+Scarlet fever,猩紅熱,034.1,A035
+Schizophrenia,精神分裂症,295.9,A211
+Sciatica,坐骨神經痛,724.3,A434
+Sensory disturbance,皮膚感覺障礙,782.0,A469
+Sepsis,敗血症,038.9,A038
+Shigella dysenteriae,志賀桿菌性痢疾,004.0,A012
+Skin infection,皮膚感染,686.9,A420
+Skin rash,皮疹,782.1,A469
+Skin vesicular eruption,皮膚水泡發疹,709.8,A429
+"Spinal stenosis, cervical",頸部脊椎狹窄,723.0,A434
+Spinal stenosis other than cervical,脊椎狹窄，頸部除外,724.0,A434
+Spondylosis,脊椎關節黏連,721.9,A434
+"Spondylosis, cervical",頸部關節黏連,721.0,A434
+Strain / sprain,扭傷及拉傷,848.9,A48
+"Stress incontinence, female",壓力性排尿失禁，女性,625.6,A379
+Syncope / collapse,暈厥/虛脫,780.2,A469
+Syphilis,梅毒,097.9,A060
+Systemic lupus erythematosus (SLE),全身紅斑性狼瘡,710.0,A431
+Systemic sclerosis,全身性硬化症,710.1,A431
+Tachycardia,心搏過速,785.0,A461
+"Tacycardia, proxysmal",陣發性心搏過速,427.2,A281
+Unspecified enthesopathy,著骨點病變,726.9,A435
+Pain disorders related to psychological factors,心因性疼痛,307.8,A219
+Thalassemia,地中海型貧血,282.4,A200
+Thrombocytopenia,血小板缺乏,287.5,A209
+Tinea coporis,體癬,110.5,A071
+Tinea cruris,股癬,110.3,A071
+Tinea of nail,指(趾)癬,110.1,A071
+Tinea pedis,足癬,110.4,A071
+Tinnitus,耳鳴,388.3,A249
+Transient ischemic attack,暫時性腦部缺氧發作,435.9,A299
+"Trichomoniasis, genitourinary",泌尿生殖道滴虫病,131.0,A079
+Trigeminal neuralgia,三叉神經痛,350.1,A229
+Primary tuberculous infection unspecified type,原發性結核感染,010.9,A021
+Tuberculosis of pulmonary,肺結核,011.9,A020
+Typhoid fever,傷寒,002.0,A011
+Ulcer of lower limbs,下肢潰瘍,707.1,A429
+Upper respiratory infection,上呼吸道感染,465.9,A312
+Urethritis,尿道炎,597.8,A359
+Urinary tract infection,泌尿道感染,599.0,A359
+Urine incontinence,小便失禁,788.3,A469
+Urolithiasis,尿結石,592.9,A352
+Urticaria,蕁麻疹,708.9,A429
+Uterine myoma,子宮平滑肌瘤,218.9,A152
+Vaginitis,陰道炎,616.1,A373
+"Varicose, lower limbs",下肢靜脈曲張,454.9,A304
+Vasculitis,血管炎,447.6,A302
+Vertigo,眩暈徵候群,386.9,A249
+Viral infection,病毒感染,079.9,A049
+Visual disturbance,視覺障礙,368.9,A239
+Vitamin B deficiency,維生素Ｂ缺乏,266.9,A193
+Vitamin C deficiency,維生素Ｃ缺乏,267,A193
+"Weight gain, abnormal",體重異常增加,783.1,A469
+"Weight loss, abnormal",體重異常減輕,783.2,A469

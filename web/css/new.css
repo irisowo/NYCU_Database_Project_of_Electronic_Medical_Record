@@ -752,8 +752,6 @@ input[type="checkbox"]:focus {
 /* aside */
 aside{
   position: absolute;
-  /*
-	position:fixed;*/
 	right:15px;
 	bottom:0px;
   

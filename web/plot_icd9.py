@@ -5,19 +5,19 @@ import numpy as np
 from scipy import stats
 import math
 import csv
-#import pylab
-#from matplotlib import pyplot as plt
+
 import scipy.cluster.hierarchy as sch
 from sklearn.cluster import AgglomerativeClustering
 from scipy.cluster.hierarchy import fcluster,dendrogram, linkage,cophenet
 from scipy.spatial.distance import pdist, squareform
 from sklearn.neighbors import NearestNeighbors
 from sklearn.neighbors import KNeighborsClassifier
+
 # path configuration
-icd9_path = 'txt/IM_icd9_all.txt'
-icd9_name_path = 'txt/IM_icd9_chinese_name.txt'
+icd9_path = 'txt/ICD9.txt'
+icd9_name_path = 'txt/ICD9_Chinese_name.txt'
 #distance_matrix_path = 'txt/distance_matrix.txt'
-distance_matrix_pathes =['txt/distance_matrix.txt','txt/distance_matrix_p1.txt']
+distance_matrix_pathes =['txt/distance_matrix.txt']
 
 # Global variables
 IM＿icd9 = []
@@ -61,16 +61,13 @@ if __name__ == '__main__':
     # save icd9 of internal medince(目前只存內科的疾病名稱)
     #---------------------------------------------
     with open(icd9_path, "r") as file1:
-        isline0=1
         for line in file1.readlines():
             icd9_str = str(line)
-            if icd9_str[0].isdigit():
-                IM_icd9.append((icd9_str.strip()))
+            IM_icd9.append((icd9_str.strip()))
             IM_icd9_cnt+=1
     file1.close()
 
     with open(icd9_name_path, "r") as file1:
-        isline0=1
         for line in file1.readlines():
             IM_icd9_chinese_name.append(line.strip())
     file1.close()

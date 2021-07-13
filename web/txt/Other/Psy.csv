@@ -1,0 +1,74 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Senile and presenile organic psychotic conditions,老年期及初老年期器質性精神病態,290.9,A210
+Senile dementia with delusional or depressive features,老年期癡呆症併憂鬱或妄想現象,290.2,A210
+Senile dementia with delirium,老年期癡呆症併譫妄,290.3,A210
+Alcoholic psychoses,酒精性精神病,291.9,A213
+Alcohol withdrawal delirium,酒精戒斷性譫妄,291.0,A213
+Alcohol amnestic syndrome,酒精性失憶徵候群,291.1,A213
+Alcoholic dementia,酒精性癡呆,291.2,A213
+Alcohol withdrawal hallucinosis,酒精戒斷性幻覺症,291.3,A213
+Idiosyncratic alcohol intoxication,特異性酒精中毒,291.4,A213
+Alcoholic jealousy,酒精性嫉妒症,291.5,A213
+Transient organic psychotic conditions,暫時性器質性精神病狀態,293.9,A213
+Subacute delirium,亞急性譫妄,293.1,A213
+Other specified transient mental disorders due to conditions classified elsewhere,其他特定之暫時性器質性精神疾患,293.8,A213
+Other organic psychotic conditions (chronic),其他器質性精神病狀態（慢性）,294.8,A213
+Amnestic syndrome(nonalcoholic),失憶症徵候群,294.0,A213
+Dementia如:dementia in syphilis/dementia in epilepsy ,癡呆症,294.1,A213
+Disorganized type schizophrenia,混亂型精神分裂症,295.1,A211
+Catatonic type schizophrenia,緊張型精神分裂症,295.2,A211
+Paranoid type schizophrenia,妄想型精神分裂症,295.3,A211
+Acute schizophrenic episode,急性精神分裂症發作,295.4,A211
+Residual schizophrenia,殘餘型精神分裂症,295.6,A211
+Schizo-affective type,情感性精神分裂症,295.7,A211
+Other specified types of schizophrenia,其他特定亞型之精神分裂症,295.8,A211
+Major depressive disorder、single episode,重鬱症、單純發作,296.2,A212
+Major depressive disorder、recurrent episode,重鬱症、復發,296.3,A212
+Bipolar affective disorder、manic,雙極性情感異常、躁型,296.4,A212
+Bipolar affective disorder、depressed,雙極性情感異常、鬱型,296.5,A212
+Bipolar affective disorder、mixed,雙極性情感異常、混合型,296.6,A212
+Paranoid states,妄想狀態,297.9,A213
+Paraphrenia,晚發妄想性精神病,297.2,A213
+Shared paranoid disorder,誘發性妄想性精神病,297.3,A213
+Psychoses with origin specific to childhood,源於兒童期之精神病,299.9,A213
+Autistic disorder,嬰幼兒自閉症,299.0,A213
+Disintegrative psychosis,崩解性精神病,299.1,A213
+Neurotic depression,精神官能性憂鬱症,300.4,A214
+Neurasthenia,神經衰弱症,300.5,A214
+Somatoform disorder,其他精神官能症(原:308.81身體化症),300.8,A214
+Personality disorders,人格違常,301.9,A214
+Paranoid personality disorder,妄想性人格違常,301.0,A214
+Affective personality disorder,"	情感性人格違常",301.1,A214
+Schizoid personality disorder,分裂性人格違常,301.2,A214
+Compulsive personality disorder,強迫性人格違常,301.4,A214
+Histrionic personality disorder,劇化性人格違常,301.5,A214
+Antisocial personality disorder,異規性人格違常,301.7,A214
+Other personality disorders,其他人格違常,301.8,A214
+Unspecified psychosexual disorder(paraphilia/pedophilia/necrophilia/bestiality/klismaphilia/zoophilia/coprophilia等),性心理疾患,302.9,A219
+Homosexuality,同性戀,302.0,A219
+Transvestism,扮異性症,302.3,A219
+Exhibitionism,暴露症,302.4,A219
+Trans-sexualism,變性症,302.5,A219
+Disorders of psychosexual identity(gender identity disorder in children),性心理認同障礙,302.6,A219
+Other specified psychosexual disorders,其他性心理疾患(含戀物症/窺視症/性被虐待症),302.8,A219
+Special symptoms or syndromes(enuresis、encopresis),特殊症狀或症候群,307.9,A219
+Stammering and stuttering,結巴與口吃,307.0,A219
+Anorexia nervosa,神經性厭食,307.1,A219
+Stereotypic movement disorder,常同性反覆動作(撞頭等常見於智能不足患者),307.3,A219
+Specific disorders of sleep of nonorganic origin(sleepwalking/nightmares/insomnia）,非器質性特殊睡眠障礙(夢遊/夢魘/失眠）,307.4,A219
+Disorders of eating(bulimia、pica、psychogenic vomiting、infantile feeding disturbances),飲食障礙,307.5,A219
+Acute reaction to stress(catastrophic stress、posttraumatic stress disorder等),急性壓力反應,308.9,A219
+Adjustment reaction(separation anxiety disorder、culture shock、chronic posttraumatic stress disorder、concentration camp syndrome、elective mutism as adjustment reaction),環境適應障礙,309.9,A219
+Specific nonpsychotic mental disorders due to organic brain damage （postconcussion syndrome or encephalopathy）,器質性腦傷後之特殊非精神病性心理疾患,310.9,A219
+Frontal lobe syndrome,額葉症候群,310.0,A219
+Organic personality syndrome,器質性人格疾患,310.1,A219
+Disturbance of conduct（impulse control disorder、pathological gambling、kleptomania、pyromania、intermittent explosive disorder、isolated explosive disorder等）,行為障礙,312.9,A219
+Disturbance of emotions specific to childhood and adolescence(overanxious disorder、misery and unhappiness disorder、sensitivity/shyness/and social withdrawal disorder、social withdrawal of childhood or adolescence、elective mustism、oppositional disorder、identity disorder、sibling jealousy、academic underachievement disorder等）,特發於兒童期與青春期之情緒障礙,313.9,A219
+Hyperkinetic syndrome of child,兒童期過動症候群,314.9,A219
+Delays in development,發展遲滯,315.9,A219
+Developmental reading disorder,閱讀遲滯,315.0,A219
+Arithmetical disorder,算術遲滯,315.1,A219
+Coordination disorder,動作協調疾患,315.4,A219
+Moderate mental retardation,中度智能不足,318.0,A218
+Severe mental retardation,重度智能不足,318.1,A218
+Profound mental retardation,極度智能不足,318.2,A218

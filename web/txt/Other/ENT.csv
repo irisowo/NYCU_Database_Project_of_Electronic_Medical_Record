@@ -1,0 +1,53 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Herpangina,泡疹性咽峽炎,074.0,A049
+Acute laryngitis,急性喉炎,464.0,A311
+Acute epiglottitis,急性會厭炎,464.3,A311
+Croup,嘶哮,464.4,A311
+Acute bronchiolitis,急性細支氣管炎,466.1,A320
+Malignant neoplasm of tongue,舌癌,141.9,A08
+Malignant neoplasm of salivary gland,唾液腺癌,142.9,A08
+Malignant neoplasm of nasopharynx,鼻咽癌,147.9,A08
+Malignant neoplasm of hypopharynx,下咽癌,148.9,A08
+Malignant neoplasm of larynx,喉癌,161.9,A100
+Secondary malignant neoplasm of lymph nodes of neck,頸部淋巴腺續發性腫瘤,196.0,A139
+Benign neoplasm of salivary glands,唾液腺良性腫瘤,210.2,A159
+Impacted cerumen,耳垢栓塞,380.4,A249
+Serous otitis media,漿液性中耳炎,381.4,A240
+Disorders of Eustachian tube,耳咽管疾患,381.8,A240
+Acute myringitis,急性鼓膜炎,384.0,A249
+Chronic myringitis,慢性鼓膜炎,384.1,A249
+Perforation of tympanic membrane,鼓膜穿孔,384.2,A249
+"Specified parts of ear, without mention of complication",特定部位之耳開放性傷口，未提及併發症,872.6,A500
+Cholesteatoma of middle ear and mastoid,Cholesteatoma of middle ear and mastoid,385.3,A249
+Vertigo of central origin,中樞性之眩暈,386.2,A249
+Labyrinthitis,迷路炎,386.3,A249
+Degenerative and vascular disorders of ear,耳之變性及血管疾患(含老年性失聰),388.0,A249
+Sudden hearing loss,突發性耳聾,388.2,A249
+Otalgia,耳痛,388.7,A249
+Nasal polyp,鼻瘜肉,471.9,A313
+Chronic tonsillitis,慢性扁桃腺炎,474.0,A315
+Mucocele of nasal sinus,鼻竇粘液囊腫,478.1,A319
+Fracture of nasal bone,鼻骨骨折,802.0,A470
+Fracture of maxillary bone,上頷骨骨折,802.4,A470
+Paralysis of vocal cord,聲帶痳痺,478.3,A319
+Polyp of vocal cord,聲帶瘜肉,478.4,A319
+Sialoadenitis,唾液腺炎,527.2,A339
+Sialolithiasis,唾液腺結石,527.5,A339
+Cyst of oral soft tissues,口腔軟組織囊腫,528.4,A339
+Leukoplakia of oral mucosa,口腔黏膜白斑症,528.6,A339
+Glossitis,舌炎,529.0,A339
+ Branchial cleft cyst or fistula / preauricular sinus,先天性鰓裂囊腫,744.4,A449
+Tongue tie,舌繫帶短縮,750.0,A444
+Thyroglossal cyst ,甲狀腺舌管囊腫,759.2,A449
+Loss sense of smell,嗅覺喪失,781.1,A469
+Neck mass,頸部腫塊,784.2,A469
+Voice disturbance,發音障礙,784.4,A469
+Dysarthria,構音異常，口吃,784.5,A469
+Dysphagia,吞嚥困難,787.2,A469
+Foreign body in pharynx ,咽之異物,933.0,A51
+Foreign body in larynx,喉之異物,933.1,A51
+Foreign body in trachea,氣管之異物,934.0,A51
+Foreign body in bronchus,支氣管之異物,934.1,A51
+Foreign body in esophagus,食道之異物,935.1,A51
+Cellulitis and abscess of neck,頸部蜂窩組織炎及膿瘍,682.1,A420
+Developmental speech or language disorder,語言或語文發展障礙,315.3,A219
