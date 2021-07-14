@@ -17,7 +17,7 @@ from sklearn.neighbors import KNeighborsClassifier
 icd9_path = 'txt/ICD9.txt'
 icd9_name_path = 'txt/ICD9_Chinese_name.txt'
 #distance_matrix_path = 'txt/distance_matrix.txt'
-distance_matrix_pathes =['txt/distance_matrix.txt']
+distance_matrix_pathes =['txt/distance_matrix.txt','txt/distance_matrix_pr.txt']
 
 # Global variables
 IM＿icd9 = []
