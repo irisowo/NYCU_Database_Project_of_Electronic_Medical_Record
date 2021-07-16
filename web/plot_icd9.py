@@ -17,34 +17,12 @@ from sklearn.neighbors import KNeighborsClassifier
 icd9_path = 'txt/ICD9.txt'
 icd9_name_path = 'txt/ICD9_Chinese_name.txt'
 #distance_matrix_path = 'txt/distance_matrix.txt'
-distance_matrix_pathes =['txt/distance_matrix.txt','txt/distance_matrix_pr.txt']
+distance_matrix_pathes =['txt/distance_matrix.txt']
 
 # Global variables
 IM＿icd9 = []
 IM_icd9_chinese_name = []
 IM_icd9_cnt=0
-
-#===============================================================
-# 按Distance由近到遠印出
-#===============================================================
-def print_distance_list_of(_icd9):
-    icd9_chosen=_icd9
-    D_List={}
-
-    for i in range(IM_icd9_cnt):
-        if (icd9_chosen==i):
-            continue
-        cur_dist=(float)(Distance_matrix[icd9_chosen][i])
-        if (cur_dist<=0.025):
-            D_List[cur_dist]=i
-
-    sorted_D_List=(sorted(D_List.items(), key=lambda item: item[0]))
-
-    title="==================="+str(IM_icd9[icd9_chosen])+"===================||"
-    print(str(title))
-    for key_value in sorted_D_List:
-        idx=(key_value[1])
-        print(str(IM_icd9[idx])+'--'+IM_icd9_chinese_name[idx][:-1]+'--'+str(key_value[0])+'||' )
     
 #===============================================================
 # other tool function
@@ -115,4 +93,4 @@ if __name__ == '__main__':
                     print("&nbsp;&nbsp;&nbsp; No result. &nbsp;&nbsp;&nbsp;.")      
             else :
                 print("input form error")
-        if (distance_matrix_path!=distance_matrix_pathes[1]) : print("######")
+        if (distance_matrix_path!=distance_matrix_pathes[-1]) : print("######")
