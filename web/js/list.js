@@ -10,17 +10,34 @@
     function _onInputEvent(e) {
       _input = e.target;
       var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+      // identify the filename
+      var path = window.location.pathname;
+      var page = path.split("/").pop();
+
       Arr.forEach.call(tables, function(table) {
+        var i =0;
         Arr.forEach.call(table.tBodies, function(tbody) {
-          Arr.forEach.call(tbody.rows, _filter);
+          if (page == "search_result.php"){
+            Arr.forEach.call(tbody.rows, _filter_num,i);
+          }
+          else{
+            Arr.forEach.call(tbody.rows, _filter);
+          }
+          i+=1;
         });
       });
     }
 
     // 資料篩選函數，顯示包含關鍵字的列，其餘隱藏
+    
     function _filter(row) {
       var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
       row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+    }
+
+    function _filter_num(row,i) {
+      var text = row.textContent.toLowerCase(), val = _input.value;
+      row.style.display = i >= parseInt(val,10)  ? 'none' : 'table-row';
     }
 
     return {

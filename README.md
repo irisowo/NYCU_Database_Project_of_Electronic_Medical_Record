@@ -2,25 +2,19 @@
 
 ## **PHP** 
   ### **header.php**
-* `html 的 <head></head>`
+* `<head>`
 ### **index.php**
 * `html`
+* `include php/Template.php`
 ### **search_result.php**
-* 路徑
-`若執行python 有問題，請修改 line 5 的 $KNN_cmd`
-`範例 : <?php $KNN_cmd = "python3 plot_icd9.py"; ?>`
-* **KNN 實作**
-    * `plot_icd9.py`
+* `show the comorbidities associated with the disease selected`
+* **Result(1) : Distance**
+    * `include php/distance.php, which will invoke plot_icd9.py`
 
-* **Association rule 實作**：
-    * `php 讀取association_result.txt`
+* **Result(2) : Association rule**：
+    * `include php/association.php`
     * `association_result.txt 來自 association.ipynb輸出`
     * <img src="https://i.imgur.com/AzVsTBL.png" width = "500"/>
-### **list.php**
-* `php/All.php: 列出所有科別常見代碼`
-* `php/Template.php(同上之空白模板，僅移除讀檔part)`
-
-
 ## **PYTHON** 
 ### **plot_icd9.py**
 * `input : distance_matrix.txt, which is the output of 專題/Cal_Dist(0713).ipynb`

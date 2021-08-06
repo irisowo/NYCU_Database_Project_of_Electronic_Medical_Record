@@ -56,128 +56,42 @@
     <!--------Result block-------->
     <div class="container mt-5">
       <div class="col-12 tm-block-col">
-        <?php
-            echo " <div class='tm-bg-primary-dark tm-block tm-block-h-auto'>
-                    <h2 class='tm-block-title2'>Result </h2>";
-            $message = ""; // error message
-            // ----------------------MODE 1: input k----------------------
-            if( isset($_POST['neighbor_num']) )
-            {
-              $name =  filter_var($_POST['name'],FILTER_SANITIZE_NUMBER_FLOAT,FILTER_FLAG_ALLOW_FRACTION);
-              $neighbor_num =  filter_var($_POST['neighbor_num'],FILTER_VALIDATE_INT);
-              $mode = 1;
-              // ----------------------block1 : KNN----------------------
-              // --------get info from python --------
-              putenv("PYTHONIOENCODING=utf-8");
-              $command = ("$KNN_cmd $name $neighbor_num $mode 2>&1");
-              $escaped_command = escapeshellcmd($command);
-              $output = shell_exec($escaped_command);
-              
-              //--------------print table--------------
-              $results =explode('######',$output);
-              foreach ($results as $result) {
-                $result_array=explode('||',$result);
-                $line1 = 1;
-                echo "<div class='tm-bg-primary-dark tm-block tm-block-h-auto'>
-                      <div class='tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll'>
-                      <table class='table'>";
-                if(count($result_array)>2){
-                  echo "
-                        <thead>
-                          <tr>
-                              <th scope='col'>icd9</th>
-                              <th scope='col'>name</th>
-                              <th scope='col'>distance</th>
-                          </tr>
-                        </thead>
-                        <tbody>";
-                }
-                foreach ($result_array as $value) {
-                  if($line1){
-                    print " <h2 class='tm-block-title'>搜尋 : ".$name." ( ".$value.") ,&nbsp&nbsp k =   ".$neighbor_num."</h2>";   
-                    $line1 = 0;
-                    continue;
-                  }
-                  $pieces = explode('>', $value);
-                  if( isset($pieces[1]) ){//remove the space on the last line
-                    echo "<tr>";
-                    echo "<td><div class='tm-status-circle ";
-                    
-                    if((float)($pieces[2]) <= 0.05){
-                      echo"moving'></div>";
-                    }
-                    elseif((float)($pieces[2])<=0.1){
-                      echo"pending'></div>";
-                    }
-                    else{
-                      echo"cancelled'></div>";
-                    }
-                    echo"$pieces[0]</td>";
-                    echo"<td><b>$pieces[1]</b></td>
-                        <td><b>$pieces[2]</b></td>
-                        </tr>";
-                  }
-                }
-                echo"</tbody></table></div>"; 
-                echo"</div>";
-            }
-            echo"</div>"; 
-              // ----------------------end of block1 : KNN----------------------
+        <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+          <h2 class="tm-block-title2">Result </h2>";
+          <!------search block------>
+          <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+            <h2 class="tm-block-title">輸入共病數量 (maximum=100)</h2>              
+            <form method="post" action="" class="tm-signup-form row">
+              <div class="form-group col-12">
+                <input type="text" onkeyup="this.value=this.value.replace(/\D/g,'')" class="light-table-filter form-control validate" maxlength = "3" min="1" max="100" data-table="order-table" placeholder="輸入數字" >
+              </div>
+            </form>
+          </div>
+          <!------end of search block------>
+          <?php
+              $message = ""; // error message
+              // ----------------------MODE 1: input k----------------------
+              if( isset($_POST['neighbor_num']) )
+              {
+                $name =  filter_var($_POST['name'],FILTER_SANITIZE_NUMBER_FLOAT,FILTER_FLAG_ALLOW_FRACTION);
+                $neighbor_num =  filter_var($_POST['neighbor_num'],FILTER_VALIDATE_INT);
+                $mode = 1;
+                // ----------------------block1 : KNN----------------------
+                // get info from python
+                putenv("PYTHONIOENCODING=utf-8");
+                $command = ("$KNN_cmd $name $neighbor_num $mode 2>&1");
+                $escaped_command = escapeshellcmd($command);
+                $output = shell_exec($escaped_command);
+                include "php/distance.php";
+                // ----------------------end of block1 : KNN----------------------
 
-              // -------------------block2 : association_rule-------------------
-              $postxt = file_get_contents('txt/association_result.txt');
-              $result_array = explode("\n",$postxt);
-              echo "
-                    <div class='tm-bg-primary-dark tm-block tm-block-h-auto'>
-                    <div class='tm-bg-primary-dark tm-block tm-block-h-auto tm-block-taller tm-block-scroll'>";
-              $line1 = 1;      
-              if(count($result_array)>0){                           
-                foreach ($result_array as $value) {
-                    $pieces = explode(' ',$value);
-                    $Is_1st_icd9_matched = strcmp( substr($pieces[0],0,5),substr($name,0,5))===0;
-                    $Is_2nd_icd9_matched = strcmp( substr($pieces[1],0,5),substr($name,0,5))===0;
-                    if( isset($pieces[1]) and ( $Is_1st_icd9_matched or $Is_2nd_icd9_matched ) ){
-                      if($line1){  
-                        echo "
-                        <table class='table'>
-                          <thead>
-                              <tr>
-                                  <th scope='col'>No1_icd9</th>
-                                  <th scope='col'>No2_icd9</th>
-                                  <th scope='col'>Supprt</th>
-                                  <th scope='col'>Confidence</th>
-                                  <th scope='col'>Lift</th>                                   
-                              </tr>
-                          </thead>
-                          <tbody>";
-                        echo " <h2 class='tm-block-title'> Association Result &nbsp&nbsp </h2>";   
-                        $line1 = 0;
-                        #continue;
-                      }
-                      $support = substr($pieces[2], 0, 7);
-                      $confidence = substr($pieces[3], 0, 7);
-                      $lift = substr($pieces[4], 0, 7);
-                      echo "<tr>";
-                      echo"<td>$pieces[0]</td>";
-                      echo"<td>$pieces[1]</td>
-                          <td><b>$support</b></td>
-                          <td><b>$confidence</b></td>
-                          <td><b>$lift</b></td>
-                          </tr>";
-                    }
-                }
-                if ($line1 == 1 ){
-                  echo " <h2 class='tm-block-title'>No Association Result &nbsp&nbsp </h2>"; 
-                }
-                echo"</tbody></table></div>";
-                echo"<div>";
+                // -------------------block2 : association_rule-------------------
+                $postxt = file_get_contents('txt/association_result.txt');
+                include "php/association.php";
               }
-            }
-            // -------------------end of block2 : association_rule-------------------
-              
-          // ----------------------MODE 2: select level ----------------------
-          // ------------------------end of Mode 2----------------------------
-        ?>
+              // -------------------end of block2 : association_rule-------------------
+          ?>
+        </div>
       </div>
     </div>
     <!--------end of Result block-------->

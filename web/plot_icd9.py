@@ -7,8 +7,6 @@ import math
 import csv
 
 import scipy.cluster.hierarchy as sch
-from sklearn.cluster import AgglomerativeClustering
-from scipy.cluster.hierarchy import fcluster,dendrogram, linkage,cophenet
 from scipy.spatial.distance import pdist, squareform
 from sklearn.neighbors import NearestNeighbors
 from sklearn.neighbors import KNeighborsClassifier

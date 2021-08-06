@@ -45,28 +45,6 @@
       <div class="container mt-5">
         <div class="row tm-content-row">
           <div class="col-12 tm-block-col">
-            <!--------------------block1-------------------->
-            <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
-              <h2 class="tm-block-title">搜尋 k 個相似共病</h2>
-              <form method="post" action="search_result.php" class="tm-signup-form row">
-                <div class="form-group col-12">
-                  <label for="name">輸入 ICD9 <a href="list.php"><p>(xxx.x or xxx)</p></a> </label>
-                  <input id="name" name="name" type="text" class="form-control validate" required pattern=[0-9][0-9][0-9].[0-9]|[0-9][0-9][0-9] oninvalid="this.setCustomValidity('input form : xxx.x or xxx')" oninput="this.setCustomValidity('')"><br>
-                  
-                  <label for="name">輸入 k <p> (ranging from 1 to 100)</p> </label>
-                  <input id="neighbor_num" name="neighbor_num" type="number" class="form-control validate" required pattern=[0-9][0-9][0-9] min="1" max="100" oninvalid="this.setCustomValidity('range : 1~100')" oninput="this.setCustomValidity('')" ><br>
-                  
-                  <div class="tm-block-h-auto">
-                    <button type="submit" class="btn btn-primary btn-block btn-outline-info text-uppercase">
-                      Submit
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <!--------------------end of block1-------------------->
-            <div class="container mt-5"></div>
-
             <!-----------------------block2------------------------>
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
               <!------select block------>
@@ -114,8 +92,9 @@
 
               <!---div class for changing text-->
               <?php
+                $ICD9_CSV = "./txt/ICD9.csv";
                 switch($page_type){
-                  case '--': include_once('php/All.php'); break;
+                  case '--': include_once('php/Template.php'); break;
                   case 'IM': $ICD9_CSV = "./txt/Other/IM.csv"; include_once('php/Template.php'); break;
                   case 'FM': $ICD9_CSV = "./txt/Other/FM.csv"; include_once('php/Template.php'); break;
                   case 'S': $ICD9_CSV = "./txt/Other/S.csv"; include_once('php/Template.php'); break;
@@ -128,7 +107,7 @@
                   case 'GYN': $ICD9_CSV = "./txt/Other/GYN.csv"; include_once('php/Template.php'); break;
                   case 'Oph': $ICD9_CSV = "./txt/Other/Oph.csv"; include_once('php/Template.php'); break;
                   case 'Psy': $ICD9_CSV = "./txt/Other/Psy.csv"; include_once('php/Template.php'); break;
-                  default: include_once('php/All.php'); break;
+                  default: include_once('php/Template.php'); break;
               }
               ?>
               <!--aside-->
@@ -146,7 +125,6 @@
           </p>
         </div>
       </footer>
-
     </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
