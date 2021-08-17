@@ -35,13 +35,6 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-          
-            <li class="nav-item">
-              <a class="nav-link" href="list.php">
-                <i class="far fa-user"></i> List
-              </a>
-            </li>
-
             <li class="nav-item">
               <a class="nav-link active" >
                 <i class="far fa-user"></i> Result
@@ -83,13 +76,10 @@
                 $escaped_command = escapeshellcmd($command);
                 $output = shell_exec($escaped_command);
                 include "php/distance.php";
-                // ----------------------end of block1 : KNN----------------------
-
                 // -------------------block2 : association_rule-------------------
                 $postxt = file_get_contents('txt/association_result.txt');
                 include "php/association.php";
               }
-              // -------------------end of block2 : association_rule-------------------
           ?>
         </div>
       </div>

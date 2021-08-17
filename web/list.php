@@ -98,7 +98,7 @@
               <!-------div class for table------>
               <?php
                 switch($page_type){
-                    case '--': include_once('php/All.php'); break;
+                    case '--': include_once('php/Template.php'); break;
                     case 'IM': $ICD9_CSV = "./txt/Other/IM.csv"; include_once('php/Template.php'); break;
                     case 'FM': $ICD9_CSV = "./txt/Other/FM.csv"; include_once('php/Template.php'); break;
                     case 'S': $ICD9_CSV = "./txt/Other/S.csv"; include_once('php/Template.php'); break;
@@ -111,7 +111,7 @@
                     case 'GYN': $ICD9_CSV = "./txt/Other/GYN.csv"; include_once('php/Template.php'); break;
                     case 'Oph': $ICD9_CSV = "./txt/Other/Oph.csv"; include_once('php/Template.php'); break;
                     case 'Psy': $ICD9_CSV = "./txt/Other/Psy.csv"; include_once('php/Template.php'); break;
-                    default: include_once('php/All.php'); break;
+                    default: include_once('php/Template.php'); break;
                 }
               ?>
               <!-------end of div class for table------>

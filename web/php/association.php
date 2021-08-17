@@ -3,12 +3,12 @@
   echo "
         <div class='tm-bg-primary-dark tm-block tm-block-h-auto'>
         <div class='tm-bg-primary-dark tm-block tm-block-h-auto tm-block-taller tm-block-scroll'>";
-  $line1 = 1;      
+  $line1 = 1;
   if(count($result_array)>0){                           
     foreach ($result_array as $value) {
         $pieces = explode(' ',$value);
-        $Is_1st_icd9_matched = strcmp( substr($pieces[0],0,5),substr($name,0,5))===0;
-        $Is_2nd_icd9_matched = strcmp( substr($pieces[1],0,5),substr($name,0,5))===0;
+        $Is_1st_icd9_matched = strcmp( substr($pieces[0],0,5),substr($name,0,5))==0;
+        $Is_2nd_icd9_matched = strcmp( substr($pieces[1],0,5),substr($name,0,5))==0;
         if( isset($pieces[1]) and ( $Is_1st_icd9_matched or $Is_2nd_icd9_matched ) ){
           if($line1){  
             echo "

@@ -19,7 +19,7 @@
     }
     foreach ($result_array as $value) {
       if($line1){
-        print " <h2 class='tm-block-title'>搜尋 : ".$name." ( ".$value.") ,&nbsp&nbsp default number =   ".$neighbor_num."</h2>";   
+        print " <h2 class='tm-block-title'>搜尋 : ".$name." ( ".$value.") ,&nbsp&nbsp default number =   ".$neighbor_num."</h2>";
         $line1 = 0;
         continue;
       }
