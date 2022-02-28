@@ -4,7 +4,7 @@
 ### **index.php**
 * `include php/Template.php`
 ### **search_result.php**
-* `show the comorbidities associated with the disease selected`
+* `show the comorbidities associated with the selected diseases`
 * **Result(1) : Distance**
     * `include php/distance.php, which executes plot_icd9.py`
 * **Result(2) : Association rule**：
