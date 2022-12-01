@@ -1,0 +1,95 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Inflammatory disease of cervix、 vagina and vulva,子宮頸、陰道、及女陰之炎症,616.9,A373
+Inflammatory disease of uterus,子宮炎症(子宮頸除外),615.9,A373
+Leukorrhoea,白帶,623.5,A379
+Pruritus of genital organ,生殖器官瘙癢,698.1,A429
+Cyst of Bartholin's gland,巴氏腺囊腫,616.2,A373
+Abscess of Bartholin's gland,巴氏腺膿瘍,616.3,A373
+Ulceration of vulva,女陰潰瘍,616.5,A373
+Candidiasis,念珠菌病,112.1,A071
+Prolapse of uterus,子宮脫垂,618.1,A374
+Salpingitis and oophoritis,輸卵管炎及卵巢炎,614.2,A371
+Dysplasia of cervix (CIN lesion),子宮頸細胞化生不良,622.1,A379
+Endometrial hyperplasia,子宮內膜增生,621.3,A379
+Cervical polyp,子宮頸息肉,622.7,A379
+Cervical stricture,子宮頸狹窄,622.4,A379
+Endometriosis,子宮內膜異位,617.9,A379
+Fistula involving female genital organ,女性生殖道廔管,619.9,A379
+Congenital anomalies of genital organ,生殖器官先天畸型,752.9,A449
+Doubling of uterus,雙子宮,752.2,A449
+Irregular menstrual cycle,月經週期不規則,626.4,A375
+Menorrhagia,月經過多,626.2,A375
+Oligomenorrhea、hypomenorrhea,月經過少,626.1,A375
+Post-menopausal bleeding,停經後出血,627.1,A379
+Post-menopausal atrophic vaginitis,停經後萎縮性陰道炎,627.3,A379
+Corpus luteum cyst or hematoma,黃體囊腫或血腫,620.1,A379
+Ovarian cyst,卵巢囊腫,620.2,A379
+Benign uterine tumor,子宮良性腫瘤,219.9,A152
+Carcinoma in situ、III,子宮頸原位癌,233.1,A16
+Disorder of other female genital organs,其他女性生殖器官疾病,629.8,A379
+Ovarian failure,卵巢衰竭,256.3,A189
+Polycystic ovary,卵巢多囊性囊腫,256.4,A189
+Vaginal stricture,陰道狹窄,623.2,A379
+Carcinoma of vulva,女陰癌,184.4,A129
+Torsion of ovarian cyst,卵巢囊腫扭轉,620.5,A379
+Pelvic adhesions,骨盆腔粘黏,614.6,A372
+Vulva and perineum non-inflammatory disorder,女陰及會陰之非炎性疾患,624.9,A379
+Hyperprolactinemia,激乳素過多,253.1,A189
+Tubal obstruction,輸卵管阻塞,628.2,A376
+Hydrosalpinx,輸卵管積水,614.1,A371
+Ovarian dysfunction,卵巢功能障礙,256.9,A189
+Legally induced abortion,合法之人工流產,635.9,A381
+Illegally induced abortion,非法之人工流產,636.9,A382
+Abortion without mention of complication,流產未提及併發症,637.9,A389
+Threatened abortion,迫切流產,640.0,A390
+Habitual abortion,習慣性流產,646.3,A399
+Spontaneous abortion,自然流產,634.9,A380
+Intrauterine death affecting management of mother,子宮內胎兒死亡影響母親之處置,656.4,A399
+Cervical incompetence,子宮頸官能不足,654.5,A399
+Abortion complication,流產後之併發症,639.9,A389
+Postpartum hemorrhage(PPH),產後出血,666,A399
+Ectopic pregnancy,子宮外孕,633.9,A389
+Antepartum hemorrhage、abruptio placentae、and placenta previa,產前出血、胎盤早脫及前置胎盤,641,A390
+Pre-eclampsia,子癇前症,642.4,A391
+Eclampsia,子癇,642.6,A391
+Abnormal glucose tolerance of mother complicating pregnancy childbirth or the puerperium,妊娠、生產或產後合併產婦患有醣耐量試驗異常,648.8,A399
+Other complications of obstetrical surgical wounds,產科手術傷口之其他併發症,674.3,A394
+Major puerperal infection,重大產褥期感染,670,A394
+Other specified indications for care or intervention related to labor and delivery,有關分娩及生產所須照顧或處置之其他適應症,659.8,A399
+Other current conditions classifiable elsewhere,妊娠、生產或產後合併產婦患有其他現有狀況,648.9,A40
+Breech presentation without mention of version,臀位未提及轉向(臂位產),652.2,A399
+Known or suspected fetal abnormality,胎兒異常,655.9,A399
+Unspecified abnormality of labor,功能不良性分娩,661.9,A399
+Failed medical or unspecified induction of labor,引產失敗,659.1,A399
+Hyperemesis gravidarum with metabolic disturbance,妊娠嘔吐伴有新陳代謝失調,643.1,A391
+Excessive fetal growth,胎兒生長過度,656.6,A399
+Poor fetal growth,胎兒生長不良,656.5,A399
+Malpresentation,胎位異常,652.9,A399
+Pregnancy and obstructed labor,阻礙性分娩,660.9,A393
+Oligohydramnios,羊水過少,658.0,A399
+Polyhydramnios,羊水過多,657.0,A399
+Prolonged Pregnancy,過期妊娠,645.0,A399
+Premature rupture of membranes (PROM),早期破水,658.1,A399
+Preterm labor,早產 ( >22 wks、<37wks ),644.0,A399
+Preterm labor,早產 ( >37wks ),644.1,A399
+Previous cesarean delivery complicating pregnancy childbirth or the puerperium,以前剖腹生產、NOS,654.2,A399
+Anemia complicating pregnancy childbirth or the puerperium,妊娠合併貧血,648.2,A40
+Other specified infectious and parasitic diseases complicating pregnancy childbirth or the puerperium,妊娠、生產或產後合併產婦患有其他特定傳染性及寄生蟲性疾病,647.8,A40
+Infections of genitourinary tract in pregnancy,妊娠期生殖泌尿道感染,646.6,A392
+Tumors of body of uterus,子宮體腫瘤,654.1,A399
+Other specified intestinal obstruction,其他特定腸阻塞(原560.81:腸塞粘連),560.8,A344
+Viral warts,病毒性疣,078.1,A049
+Disease due to viruses and chlamydiae,病毒及衣原菌所致之疾病,078.8,A049
+Disease of breast,乳房疾患,611.9,A370
+Disease of respiratory system,呼吸系統之疾病,519.9,A329
+Disorder of back,背部疾患,724.9,A434
+Disorder of eye,眼疾患,379.9,A239
+Disorder of eyelid,眼瞼疾患,374.9,A239
+Disorder of joint,關節疾患,719.9,A432
+Disorders of male genital organs,男性生殖器官之疾患,608.9,A369
+Functional digestive disorders,功能性消化道疾病,564.9,A346
+Hyperuricemia,高尿酸血症,790.6,A469
+Infection of kidney,腎感染,590.9,A351
+Infertility、female,女性不孕症,628.9,A376
+Intrauterine synechiae,子宮內粘連,621.5,A379
+"Disorders of muscle, ligament, and fasci",肌肉，韌帶及筋膜之疾患(原728.85肌肉痙攣),728.8,A435

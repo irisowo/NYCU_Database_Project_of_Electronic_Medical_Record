@@ -1,0 +1,73 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Malignant skull tumor,顱骨惡性腫瘤,170.0,A110
+Malignant cerebrum tumor,大腦惡性腫瘤,191.0,A130
+Malignant cerebellum tumor,小腦惡性腫瘤,191.6,A130
+Malignant brain stem tumor,腦幹惡性腫瘤,191.7,A130
+Malignant neoplasm of brain,腦惡性腫瘤,191.9,A130
+Malignant cranial nerve tumor,顱神經惡性腫瘤,192.0,A139
+Malignant cerebral meninges tumor,大腦膜惡性腫瘤,192.1,A139
+Malignant spinal cord tumor,脊髓惡性腫瘤,192.2,A139
+Malignant spinal meninges tumor,脊髓膜惡性腫瘤,192.3,A139
+Metastatic spinal tumor,脊椎之續發性惡性腫瘤,198.5,A139
+Benign skull tumor,顱骨良性腫瘤,213.0,A159
+Benign brain tumor,腦部良性腫瘤,225.0,A155
+Benign cranial nerve tumor,腦神經良性腫瘤,225.1,A155
+Benign cerebral meninges tumor,大腦膜良性腫瘤,225.2,A155
+Benign spinal cord tumor,脊髓良性腫瘤,225.3,A155
+Benign spinal meninges tumor,脊髓膜良性腫瘤,225.4,A155
+Spinal cord tumor,脊髓腫瘤,239.7,A17
+Cerebral edema,腦水腫,348.5,A229
+Skull defect,顱骨缺損,738.1,A439
+Fracture of skull、closed,閉鎖性顱骨骨折,803.0,A470
+Fracture of skull、open,開放性顱骨骨折,803.5,A470
+Fracture of skull with contusion of brain,顱骨骨折合併腦挫傷,803.1,A470
+Fracture of skull with epidural hemorrhage,顱骨骨折合併硬腦膜上出血,803.2,A470
+Fracture of skull with intracranial hemorrhage,顱骨骨折合併腦出血,803.3,A470
+Fracture of skull with intracranial injury,顱骨骨折合併顱內損傷,803.4,A470
+Fracture of cervical spine,頸椎骨折,805.0,A471
+Fracture of thoracic spine,胸椎骨折,805.2,A471
+Fracture of lumbar spine,腰椎骨折,805.4,A471
+Fracture of cervical spine with cord injury,頸椎骨折合併脊髓損傷,806.0,A471
+Fracture of thoracic spine with cord injury,胸椎骨折合併脊髓損傷,806.2,A471
+Fracture of lumbar spine with cord injury,腰椎骨折合併脊髓損傷,806.4,A471
+Brain contusion,腦挫傷,851.8,A491
+Traumatic subarachnoid hemorrhage,外傷性蜘蛛網膜下出血,852.0,A491
+Traumatic subdural hemorrhage,外傷性硬腦膜下出血,852.2,A491
+Traumatic epidural hemorrhage,外傷性硬腦膜上出血,852.4,A491
+Carotid-cavernous fistula,頸動脈海綿竇廔管,853.0,A491
+Head injury,頭部外傷,959.0,A491
+Scalp laceration,頭皮撕裂傷,873.0,A500
+Late effect of intracranial injury,顱內損傷之後遺症,907.0,A56
+Cranial nerve injury,顱神經損傷,951.9,A491
+Spinal cord injury、cervical,頸椎脊髓損傷,952.0,A499
+Spinal cord injury、thoracic,胸椎脊髓損傷,952.1,A499
+Spinal cord injury、lumbar,腰椎脊髓損傷,952.2,A499
+Nerve injury,神經損傷,957.9,A499
+Thoracic spondylosis ,胸部椎關節黏連,721.2,A434
+Thoracic or lumbar spondylosis with myelopathy,胸椎或腰椎關節退化併脊髓病變,721.4,A434
+Herniation of cervical intervertebal disc,頸部椎間盤移位,722.0,A434
+Torticollis,斜頸,723.5,A434
+Ossification of posterior longitudinal ligament、cervical region,頸部後縱韌帶骨化,723.7,A434
+Ossification of posterior longitudinal ligament(OPLL),後縱韌帶骨化,724.8,A434
+Spondylolisthesis(acquired),後天性脊椎滑脫,738.4,A439
+Intracranial hemorrhage,顱內出血,432.9,A291
+Cerebral aneurysm,腦部動脈瘤,437.3,A299
+Moyamoya disease,腦部小血管雲霧狀疾病,437.5,A299
+Arnold-chiari syndrome,Arnold-chiari氏症候群 ,741.0,A440
+Spinal bifida,脊椎裂,741.9,A440
+Encephalocele ,腦膨出,742.0,A441
+Congenital hydrocephalus,先天性水腦症,742.3,A440
+Tethered cord syndrome,腰脊髓粘連症候群,742.5,A441
+Congenital anomaly of nervous system ,先天性神經系統畸形,742.9,A441
+Cerebral palsy,腦性痳痺,343.9,A224
+Cerebral cyst,腦囊腫,348.0,A229
+Tuberculosis of brain,腦結核病,013.2,A022
+Tuberculosis of vertebral column,脊柱結核病,015.0,A024
+Other infections involving bone in diseases classified elsewhere,特定疾病引起侵及骨之其他感染,730.8,A436
+Intracranial abscess,顱內膿瘍,324.0,A229
+Intraspinal abscess,椎管內膿瘍,324.1,A229
+Tarsal tunnel syndrome,跗隧道徵候群,355.5,A229
+Communicating hydrocephalus,交通性水腦症,331.3,A222
+Facial nerve disorders,面神經疾患,351.9,A229
+Cranial nerve lesion,顱神經病灶,352.9,A229
+Craniosynostosis,顱縫線封閉過早,756.0,A447

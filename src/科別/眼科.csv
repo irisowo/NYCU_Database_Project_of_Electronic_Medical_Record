@@ -1,0 +1,69 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Visual loss,視力喪失,369.9,A232
+Senile cataract,老年性白內障,366.1,A231
+Cataract、complicated,併發性白內障,366.3,A231
+Traumatic cataract,外傷性白內障,366.2,A231
+Congenital cataract,先天性白內障,743.3,A449
+Aphakia and other disorders of lens,無水晶體症及其他水晶體之疾患,379.3,A239
+After cataract,後發性白內障,366.5,A231
+Age-related macular degeneration,老年性黃斑部變性,362.5,A239
+Conjunctival vascular disorders and cysts,結膜之血管疾患及囊腫,372.7,A239
+Ptergium,翼狀贅肉,372.4,A239
+Conjunctival foreign body,結膜異物,930.1,A51
+Scleritis/Episcleritis,鞏膜炎、上鞏膜炎,379.0,A239
+Corneal edema,角膜水腫（非特異性）,371.2,A239
+Superficial injury of cornea,角膜之表淺損傷,918.1,A55
+Corneal degenerations,角膜變性,371.4,A239
+Epidemic keratoconjunctivitis / Infection keratoconjunctivitis,流行性角結膜炎,077.1,A049
+Interstitial keratitis,間質性角膜炎,370.5,A239
+Superficial keratitis without conjunctivitis,未伴有結膜炎之表層角膜炎,370.2,A239
+Corneal foreign body,角膜異物,930.0,A51
+With ophthalmic complications,單純泡疹併眼部合併症,054.4,A049
+Corneal ulcer,角膜潰瘍,370.0,A239
+Certain types of keratoconjunctivitis,特定型之角膜結膜炎,370.3,A239
+Sicca syndrome/sjogren's syndrome,乾眼徵候群,710.2,A431
+Hordeolum and other deep inflammation of eyelid,麥粒腫及其他眼瞼深部發炎,373.1,A239
+Entropion and trichiasis of eyelid,眼瞼內翻及倒睫,374.0,A239
+Blepharitis,眼瞼緣炎,373.0,A239
+Noninfectious dermatoses of eyelid,眼瞼之非感染性皮膚病,373.3,A239
+Ptosis,眼瞼下垂,374.3,A239
+Lagophthalmos,兔眼,374.2,A239
+Ectropion,眼瞼外翻,374.1,A239
+Primary angle-closure glaucoma,原發性隅角閉鎖性青光眼,365.2,A230
+Borderline glaucoma [glaucoma suspect],臨界性青光眼(疑似青光眼含高眼壓症),365.0,A230
+Open-angle glaucoma,隅角開放性青光眼,365.1,A230
+Corticosteroid-induced glaucoma,副腎皮質素誘發之青光眼,365.3,A230
+Glaucoma associated with other ocular disorders,與其他眼部疾患有關之青光眼,365.6,A230
+Glaucoma associated with disorders of the lens,與水晶體疾患有關之青光眼,365.5,A230
+Degenerated conditions of globe,眼球退化病態,360.4,A239
+Stenosis and insufficiency of lacrimal passages,淚道狹窄及機能不全,375.5,A234
+Acute and unspecified inflammation of lacrimal passages,急性及不明淚道發炎,375.3,A234
+Papilloedema,視神經乳頭水腫,377.0,A239
+Optic atrophy,視神經萎縮,377.1,A239
+Optic nerve injury,視神經損傷,950.0,A491
+Grave's ophthalmopathy,甲狀腺毒性眼球突出,242.0,A239
+Blow-out fracture of orbital wall,眶底閉鎖性骨折,802.6,A470
+Acute inflammation of orbit,眼窩急性炎症,376.0,A239
+Disorders of vitreous body,玻璃體疾患,379.2,A239
+Retinal breaks/Defect,視網膜破洞,361.3,A239
+Retinal detachment with retinal defect,伴有視網膜破洞之視網膜剝離,361.0,A239
+Other forms of retinal detachment,其他型態之視網膜剝離,361.8,A239
+Retinal vascular occlusion,視網膜血管閉塞,362.3,A239
+Separation of retinal layers,視網膜層分離,362.4,A239
+Retinal hemorrhage,視網膜出血,362.8,A239
+Acute / subacute iridocyclitis,急性及亞急性虹膜睫狀體炎,364.0,A239
+Other and unspecified forms of chorioretinitis and retinochoroiditis,其他脈絡膜視網膜炎及視網膜脈絡膜炎(原360.21:睫狀體扁平部炎),363.2,A239
+Other endophthalmitis,其他眼內炎,360.1,A239
+Purulent endophthalmitis,化膿性眼內炎,360.0,A239
+Exotropia,外斜視,378.1,A235
+Esotropia,內斜視,378.0,A235
+Strabismus,斜視,378.9,A235
+Heterophoria,隱斜視,378.4,A235
+Other and unspecified heterotropia,其他斜視,378.3,A235
+Diplopia,複視,368.2,A239
+Paralytic strabismus,麻痺性斜視,378.5,A235
+Other specified strabismus,其他斜視(原378.71:狄恩尼氏症候群),378.7,A235
+Contusion of eyeball/Traumatic hyphema/Lens dislocation,眼球挫傷,921.3,A55
+Laceration of skin of eyelid and periocular area,眼瞼及眼周圍皮膚裂傷,870.0,A500
+Ocular laceration,眼球裂傷,871.0,A500
+Benign tumor of eyelid / Canthus,眼臉(包括眼角)皮膚良性腫瘤,216.1,A150

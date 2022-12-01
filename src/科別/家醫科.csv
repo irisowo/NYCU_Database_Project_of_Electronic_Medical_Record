@@ -1,0 +1,71 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Acute corditis,急性聲帶炎,478.5,A319
+Acute otitis media,急性中耳炎,382.9,A240
+Chronic pharyngitis,慢性咽炎,472.1,A314
+Other specified dermatomycoses,其他特定之皮膚黴菌病,111.8,A071
+Abnormal feces,大便異常,787.7,A469
+Abnormal liver function test,肝功能檢驗異常,794.8,A469
+Cholelithiasis and Cholecystitis,膽結石合併膽囊炎,574.1,A348
+Chronic pancreatitis,慢性胰臟炎,577.1,A349
+Disease of esophagus,食道疾病,530.9,A340
+Hernia ,疝氣,553.9,A343
+Other gastrointestinal symptoms,其他消化道症狀,787.9,A469
+Viral hepatitis ,病毒性肝炎,070.9,A046
+Fasciitis ,筋膜炎,729.4,A435
+Intervertebral disc disorder ,椎間盤疾患,722.9,A434
+Synovitis and tenosynovitis,滑膜炎及腱鞘炎,727.0,A435
+Cardiac neurosis,心因性心臟血管系統功能障礙,306.2,A217
+Endocarditis valve unspecified,未明示瓣膜的心內膜炎,424.9,A289
+Alzheimer's disease,阿茲海默症,331.0,A222
+Cerebral atherosclerosis,腦血管動脈粥樣硬化,437.0,A294
+Disease of nervous system,神經系統疾病,349.9,A229
+Irritable bladder,激躁性膀胱,596.8,A359
+Abnormality of urination,小便異常,788.6,A469
+Renal colic,腎絞痛,788.0,A462
+Diabetes with renal manifestations,併有腎病表徵之糖尿病,250.4,A181
+Nephritis and nephropathy not specified as acute or chronic with other specified pathological lesion in kidney,腎炎及腎病變，併其他特定腎臟病理學上之病灶,583.8,A350
+Polyneuropathy in diabetes,糖尿病所致之多發神經病變,357.2,A229
+Diabetes with neurological manifestations,糖尿病神經病變,250.6,A181
+Disorders of thyroid gland,甲狀腺疾患,246.9,A180
+Lack of expected normal physiological development in childhood,兒童發育失調,783.4,A469
+Gout,痛風,274.9,A189
+Endocrine diseases,內分泌疾病,259.8,A189
+Disease of blood and blood-forming organs,血液及造血器官疾病,289.8,A209
+Spontaneous ecchymoses,自發性瘀斑,782.7,A469
+ Signs and symptoms in breast,乳房之症狀及徵候,611.7,A370
+Mastitis,乳腺炎,611.0,A370
+Post-menopausal syndrome,停經後症候群,627.9,A379
+Premenstrual syndrome,經前症候群,625.4,A379
+Cataract,白內障,366.9,A231
+Chalazion,瞼板腺囊腫,373.2,A239
+Chronic conjunctivitis ,慢性結膜炎,372.1,A233
+Other disorders of lacrimal gland,淚腺之其他疾患,375.1,A234
+Epiphora,淚溢,375.2,A234
+Subjective visual disturbances,自覺性視覺障礙(涵眼疲勞),368.1,A239
+Glaucoma,青光眼,365.9,A230
+Refractive error,屈光異常,367.9,A239
+Retinopathy,視網膜病變,362.1,A239
+Conjunctival degenerations and deposits,結膜之變性及沈澱物,372.5,A239
+Seborrheic dermatitis,脂漏性皮膚炎,690.1,A429
+Paronychia,甲溝炎,681.9,A420
+Folliculitis,毛囊炎,704.8,A429
+Alopecia,禿髮,704.0,A429
+Other specified disorders of sweat glands,其他特定之汗腺疾患,705.8,A429
+Verruca,病毒性疣,078.1,A049
+Dyschromia,異色症,709.0,A429
+Congenital anomalies,先天畸型,759.9,A449
+General symptoms,其他一般症狀,780.9,A469
+Dental caries,齲齒,521.0,A330
+Enterobiasis,蟯蟲病(住腸腺蟲病),127.4,A076
+Hand foot and mouth disease,手、足、口症,074.3,A049
+Herpetic gingivostomatitis,泡疹性齒齦口腔炎,054.2,A049
+Affective disorder,情感性精神病,296.9,A212
+Alcohol drunkenness,宿醉,303.9,A215
+Superficial injury ,表淺損傷,919.0,A55
+Brain concussion,腦震盪,850.9,A490
+Burn,燙傷,949.0,A529
+Fracture(close),閉鎖性骨折,829.0,A476
+Fracture (open),開放性骨折,829.1,A476
+Postoperative infection not elsewhere classified,手術後感染,998.5,A54
+Foreign body miss swallowing,吞食異物,938,A51
+Cancer of connective tissue,結締組織癌,171.9,A114

@@ -1,0 +1,57 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Acanthosis nigricans,黑棘皮症,701.2,A429
+Actinic keratosis,日光性角化病,702.0,A429
+Angioneurotic edema,血管神經性水腫   ,995.1,A56
+Angular cheilitis,口角炎,528.5,A339
+Aphthous ulcer,口瘡,528.2,A339
+Balanoposthitis,龜頭包皮炎  ,607.1,A369
+Basal cell carcinoma,基底細胞癌  ,173.9,A112
+Bowen's disease ,波文氏病,232.9,A16
+Bullous dermatosis,水泡性皮膚病   ,694.9,A429
+Contact dermatitis and other eczema due to other specified agents,接觸性皮膚炎及其他濕疹，其他特定物質所致,692.8,A429
+Congenital anomalies of the integument,外皮畸形  ,757.9,A449
+Dermatitis artefacta,人工皮膚炎,698.4,A429
+Phobic disorders,畏懼疾患(300.29:寄生蟲忘想症),300.2,A214
+Dermatosis,皮膚疾病   ,709.9,A429
+Dermatophytosis(Tinea) excluding nail,皮癬菌病,110.9,A071
+Foreign body granuloma of skin and subcutaneous tissue,皮膚及皮下組織異物肉芽腫 ,709.4,A429
+Granuloma pyogenicum,化膿性肉芽腫 ,686.1,A420
+Herpes zoster ophthalmicus,眼部帶狀泡疹,053.2,A049
+Hyperhidrosis,多汗症,780.8,A469
+Ingrowing nail,內生指(趾）甲,703.0,A429
+Insect bite,昆蟲咬傷,919.4,A55
+Other specified erythematous conditions,其他特定之紅斑病態,695.8,A429
+Other specified anomalies of skin,皮膚其他特定之畸形(757.39:角皮病),757.3,A449
+Lichenification and lichen simplex chronicus,苔癬化及慢性單純苔癬 ,698.3,A429
+Lupus erythematous(discoid),盤狀紅斑性狼瘡,695.4,A429
+Miliaria(crystallina、rubra、pustulosa),痱子,705.1,A429
+Molluscum contagiosum,觸染性軟疣 ,078.0,A049
+Morphea(guttate; linear),局限性硬皮症 ,701.0,A429
+Nail disease,指(趾)甲病,703.9,A429
+"Neoplasm、scalp、benign""",頭皮良性腫瘤,216.4,A150
+"Neoplasm、head、malignant""",頭部惡性腫瘤,173.4,A112
+Neoplasm、face、benign,臉部良性腫瘤,216.3,A150
+Neoplasm、face、malignant,臉部惡性腫瘤,173.3,A112
+Neoplasm、male genital organs、penisㄒbenign,陰莖，男性生殖器官良性腫瘤,222.1,A159
+Neoplasm、penis、malignant,陰莖惡性腫瘤,187.4,A129
+Neoplasm、male genital organs、scrotum、benign,陰囊，男性生殖器官良性腫瘤,222.4,A159
+Neoplasm、scrotum、malignant,陰囊惡性腫瘤,187.7,A129
+Panniculitis,脂層炎,729.3,A435
+Pediculosis pubis,陰蝨侵染  ,132.2,A079
+Pemphigus,天皰瘡,694.4,A429
+Pemphigoid,類天皰瘡,694.5,A429
+Perniosis,凍瘡,991.5,A56
+Pityriasis alba,白糠疹 ,696.5,A429
+Pityriasis rosea,玫瑰糠疹,696.3,A429
+Postherpetic neuralgia(intercostal),帶狀泡疹併其他神經系統合併症,053.1,A049
+Pruritus and prurigo simplex,皮癢症及單純性癢疹,698.2,A429
+Unspecified complication of pregnancy,妊娠期併發症,646.9,A399
+Pyoderma and bacterial infection of skin,膿皮病及皮膚細菌感染,686.0,A420
+Rosacea,酒渣,695.3,A429
+Seborrheic keratosis,脂漏性角化病,702.1,A429
+Senile dermatosis and degeneration or calcinosis,皮膚退化疾患   ,709.3,A429
+Contact dermatitis and other eczema due to solar radiation,接觸性皮膚炎及其他濕疹，太陽輻射所致(含曬傷),692.7,A429
+Syphilis、secondary(skin or mucosa),第二期(續發性)皮膚或粘膜梅毒,091.3,A060
+Toxic erythema,毒性紅斑,695.0,A429
+Urticaria、chronic,慢性蕁麻疹,708.8,A429
+Viral exanthemata,病毒性發疹症,057.9,A049

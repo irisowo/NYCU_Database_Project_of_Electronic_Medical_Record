@@ -1,0 +1,113 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Benign neoplasm of skin,皮膚良性腫瘤,216.9,A150
+Breast tumor ,乳房腫瘤,239.3,A17
+Lipoma,脂肪瘤,214.9,A159
+Benign neoplasm of connective tissue ,結締組織良性腫瘤,215.9,A159
+Hematemesis,嘔血,578.0,A349
+Breast fibroadenosis,乳房纖維腺腫大,610.2,A370
+Sebaceous cyst,皮脂腺囊腫,706.2,A429
+Ganglion and cyst of synovium、tendon and bursa,腱鞘囊腫及滑膜、肌腱及滑液囊之囊腫,727.4,A435
+Rupture of synovium,滑膜破裂,727.5,A435
+Cervicalgia,頸椎痛,723.1,A434
+Pain in thoracic spine,胸椎痛,724.1,A434
+Disorders of coccyx,尾骨疾患,724.7,A434
+Foreign body in respiratory tract,呼吸道內異物,934.9,A51
+Burn of eye and adnexa,眼及附屬器官之燒傷,940.9,A520
+Burn of face and head,頭臉部燒傷,941.0,A529
+Burn of lower limb,下肢燒傷,945.0,A529
+Burn of trunk,軀幹燒傷,942.0,A529
+Burn of upper limb,上肢燒傷,943.0,A529
+Burn of wrist and hand,手、腕部燒傷,944.0,A521
+Brain concussion,腦震盪,950.9,A490
+Contusion,挫傷,924.9,A55
+Contusion of abdomen,腹部挫傷,922.2,A55
+Contusion of back,背部挫傷,922.3,A55
+Contusion of chest,胸部挫傷,922.1,A55
+Injury to kidney without mention of open wound into cavity,腎之損傷，未提及體腔開放性傷口,866.0,A499
+Injury to liver without mention of open wound into cavity,肝之損傷，未提及體腔開放性傷口,864.0,A499
+Contusion of lower extremity,下肢挫傷,924.5,A55
+Contusion of shoulder,肩膀挫傷,923.0,A55
+Injury to spleen without mention of open wound into cavity,脾之損傷，未提及體腔開放性傷口,865.0,A499
+Contusion of upper extremity,上肢挫傷,923.9,A55
+Fracture of clavicle,鎖骨骨折,810.0,A476
+Fracture of femur,股骨骨折,821.0,A474
+Fracture of femur neck,股骨頸骨折,820.8,A473
+Fracture of tibia and fibula unspecified part、closed,脛骨與腓骨之閉鎖性骨折,823.8,A475
+Fracture of finger,手指骨折,816.0,A476
+Fracture of foot,足部骨折,825.2,A476
+Fracture of hand,手部骨折,815.0,A476
+Fracture of humerus ,肱骨骨折,812.2,A472
+Fracture of malleolus,踝骨骨折,824.8,A475
+Fracture of nose,鼻骨骨折,802.0,A470
+Fracture of patella,臏骨骨折,822.0,A476
+Fracture of pelvis,骨盆腔骨折,808.8,A471
+Fracture of radius and ulna unspecified part、closed,橈骨及尺骨閉鎖性骨折,813.8,A472
+Fracture of vertebra,脊椎骨折,805.8,A471
+Fracture of vertebra with spinal cord injury,脊椎骨折合併脊髓損傷,806.8,A471
+Injury to colon ,大腸損傷,863.4,A499
+Injury to gastrointestinal tract ,胃腸道損傷,863.8,A499
+Injury to heart ,心臟損傷,861.0,A499
+Injury to intra-abdominal organs,腹部器官損傷,868.0,A499
+Injury to pelvic organ ,骨盆腔器官損傷,867.8,A499
+Injury to small intestine ,小腸損傷,863.2,A499
+Injury to stomach ,胃部損傷,863.0,A499
+Traumatic hemopneumothorax,外傷性血氣胸,860.4,A499
+Traumatic hemothorax,外傷性血胸,860.2,A499
+Traumatic pneumothorax,外傷性氣胸,860.0,A499
+Open wound,開放性傷口,879.8,A509
+Open wound of back,背部開放性傷口,876.0,A509
+Open wound of chest wall,胸壁開放性傷口,875.0,A509
+Open wound of external ear,外耳部開放性傷口,872.0,A500
+Open wound of eyelid,眼瞼開放性傷口,870.8,A500
+Open wound of face,臉部開放性傷口,873.4,A500
+Open wound of finger,手指開放性傷口,883.0,A501
+Open wound of finger with tendon involvement,手指開放性傷口合併肌腱斷裂,883.2,A501
+Open wound of foot,足部開放性傷口,892.0,A502
+Open wound of foot with tendon involvement,足部開放性傷口合併肌腱斷裂,892.2,A502
+Open wound of forearm,前臂開放性傷口,881.0,A501
+Open wound of forearm with tendon involvement,前臂開放性傷口合併肌腱斷裂,881.2,A501
+Open wound of hand,手部開放性傷口,882.0,A501
+Open wound of hand with tendon involvement,手部開放性傷口合併肌腱斷裂,882.2,A501
+Open wound of lower extremity,下肢開放性傷口,894.0,A502
+Open wound of lower extremity with tendon involvement,下肢開放性傷口合併肌腱斷裂,894.2,A502
+Open wound of lower leg,腿部開放性傷口,891.0,A502
+Open wound of lower leg with tendon involvement,腿部開放性傷口合併肌腱斷裂,891.2,A502
+Open wound of scalp,頭皮開放性傷口,873.0,A500
+Open wound of trunk,軀幹開放性傷口,879.6,A509
+Open wound of upper extremity,上肢開放性傷口,884.0,A501
+Open wound of upper extremity with tendon involvement,上肢開放性傷口合併肌腱斷裂,884.2,A501
+Sprain of ankle,踝扭傷,845.0,A48
+Sprain of elbow and forearm,手肘和前臂扭傷,841.9,A48
+Hand sprain,手之扭傷及拉傷,842.1,A48
+Sprain of hip and thigh,髖及大腿扭傷,843.9,A48
+Sprain of knee and leg,膝及腿部扭傷,844.9,A48
+Sprain of shoulder and upper arm,肩及上臂之扭傷,840.9,A48
+Sprain of wrist,腕扭傷,842.0,A48
+Superficial injury of face ,臉部表淺損傷,910.0,A55
+Superficial injury of foot,足部表淺損傷,917.0,A55
+Superficial injury of hand ,手部表淺損傷,914.0,A55
+Superficial injury of lower extremity ,下肢表淺損傷,916.0,A55
+Superficial injury of thumb ,拇指表淺損傷,915.0,A55
+Superficial injury of trunk ,軀幹表淺損傷,911.0,A55
+Superficial injury of upper arm,上手臂表淺損傷,912.0,A55
+Superficial injury of upper extremity ,上肢表淺損傷,913.0,A55
+Traumatic amputation of finger,手指外傷性截斷,886.0,A501
+Traumatic amputation of foot,足部外傷性截斷,896.0,A502
+Traumatic amputation of hand,手部外傷性截斷,887.0,A501
+Traumatic amputation of leg(at or above knee),膝關節以上腿部外傷性截斷,897.2,A502
+Traumatic amputation of leg(below knee),膝關節以下腿部外傷性截斷,897.0,A502
+Traumatic amputation of thumb,拇指外傷性截斷,885.0,A501
+Traumatic amputation of toe,腳趾外傷性截斷,895.0,A502
+Cough ,咳嗽,786.2,A469
+Dysuria,解尿困難,788.1,A469
+Urinary symptoms ,泌尿道症狀,788.9,A469
+Abdominal mass,腹部腫塊,789.3,A469
+Cachexia,惡病體質,799.4,A469
+Alternation of consciousness,意識改變,780.0,A469
+Throat pain,喉嚨痛 ,784.1,A469
+Epistaxis,流鼻血  ,784.7,A469
+Shock,休克,785.5,A469
+Retention of urine,尿滯留,788.2,A463
+Frequency of urination and polyuria,頻尿及多尿,788.4,A469
+Splenomegaly,脾腫大,789.2,A469
+Death on arrival,到院時死亡,798.9,A469

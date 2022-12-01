@@ -1,0 +1,93 @@
+英文疾病名稱,中文疾病名稱,ICD-9-CM 2001年版,A Code
+Compression fracture,壓迫性骨折,733.1,A439
+Fracture of lumbar、open,腰椎開放性骨折,805.5,A471
+Fracture of coccyx,尾骨閉鎖性骨折,805.6,A471
+Fracture of rib(s)、closed,肋骨閉鎖性骨折,807.0,A471
+Fracture of rib(s)、open,肋骨開放性骨折,807.1,A471
+Fracture of pelvis、open,骨盆開放性骨折,808.9,A471
+Fracture of clavicle、closed,鎖骨閉鎖性骨折,810.0,A476
+Fracture of clavicle、open,鎖骨開放性骨折,810.1,A476
+Fracture of scapula、closed  ,肩胛骨閉鎖性骨折,811.0,A476
+Fracture of scapula、open,肩胛骨開放性骨折,811.1,A476
+Fracture of humerus、open,肱骨開放性骨折,812.3,A472
+Fracture of lower end of radius and ulna closed,橈骨及尺骨下端閉鎖性骨折,813.4,A472
+Fracture of lower end of radius and ulna open,柯雷氏開放性骨折,813.5,A472
+Fracture of unspecified part of radius with ulna open,橈骨及尺骨開放性骨折,813.9,A472
+Fracture of carpal、closed ,腕骨閉鎖性骨折,814.0,A476
+Fracture of carpal、open,腕骨開放性骨折,814.1,A476
+Fracture of metacarpal、closed  ,掌骨閉鎖性骨折,815.0,A476
+Fracture of metacarpal、open,掌骨開放性骨折,815.1,A476
+Fracture of phalanx (hand)、closed  ,指骨閉鎖性骨折,816.0,A476
+Fracture of phalanx (hand)、open,指骨開放性骨折,816.1,A476
+Multiple hand bones fracture、closed,手骨多處閉鎖性骨折,817.0,A476
+Fracture of femur neck、open,股骨頸開放性骨折,820.9,A473
+Pertrochanteric fracture of femur closed,股骨經由粗隆之閉鎖性骨折,820.2,A473
+Pertrochanteric fracture of femur open,股骨經由粗隆之開放性骨折,820.3,A473
+Fracture of femur、closed   ,股骨閉鎖性骨折,821.0,A474
+Fracture of femur、open,股骨開放性骨折,821.1,A474
+Fracture of patella、closed   ,髕骨閉鎖性骨折,822.0,A476
+Fracture of patella、open,髕骨開放性骨折,822.1,A476
+Fracture of tibia、open,脛骨開放性骨折,823.9,A475
+Fracture of ankle、open,踝開放性骨折,824.9,A475
+Fracture of tarsal and metatarsal bones、open,跗或蹠骨開放性骨折,825.3,A476
+Fracture of phalanx (foot)、closed  ,趾骨閉鎖性骨折,826.0,A479
+Fracture of phalanx (foot)、open,趾骨開放性骨折,826.1,A479
+Multiple fracture、closed  ,多發性閉鎖性骨折,828.0,A479
+Multiple fracture、open,多發性開放性骨折,828.1,A479
+Malunion of fracture,癒合不良之骨折,733.8,A439
+Dislocation of mandible,頷骨脫臼  ,830.0,A48
+Dislocation of shoulder  ,肩脫臼  ,831.0,A48
+Dislocation of elbow  ,肘脫臼  ,832.0,A48
+Dislocation of wrist  ,腕脫臼  ,833.0,A48
+Dislocation of finger  ,手指脫臼,834.0,A48
+Dislocation of hip  ,臗脫臼,835.0,A48
+Dislocation of knee  ,膝脫臼,836.5,A48
+Dislocation of ankle  ,踝脫臼,837.0,A48
+Dislocation of foot  ,足脫臼,838.0,A48
+Rotator cuff tear,旋轉環帶撕裂傷,840.4,A48
+Sprains of wrist,腕扭傷,842.0,A48
+Meniscus tear,膝軟骨或半月板撕裂,836.2,A48
+Sprains of lateral collateral ligament of knee,外側側膝韌帶扭傷,844.0,A48
+Sprains of medial collateral ligament of knee,內側側膝韌帶扭傷,844.1,A48
+Cruciate sprains,膝十字韌帶扭傷,844.2,A48
+Sprains of ankle,踝扭傷,845.0,A48
+Sprains of foot,足扭傷,845.1,A48
+Sprains of neck,頸部扭傷,847.0,A48
+Sprains of back,開放性背部受傷,847.9,A48
+Open wound of finger,手指開放性傷口,883.0,A501
+Traumatic amputation of thumb,拇指截斷,885.0,A501
+Traumatic amputation of fingers,手指截斷,886.0,A501
+Traumatic amputation of arm and hand,臂及手截斷,887.0,A501
+Traumatic amputation of toe(s),趾截斷,895.0,A502
+Traumatic amputation of foot,足截斷,896.0,A502
+Traumatic amputation of leg(s),小腿截斷,897.0,A502
+Contusion of trunk,軀幹挫傷,922.9,A55
+Post-traumatic wound infection,創傷後傷口感染,958.3,A55
+Mechanical complication of internal orthopedic device、implant and graft,體內矯形外科裝置物、種植及移植物所致之機械性併發症,996.4,A54
+Pyogenic arthritis,化膿性關節炎,711.0,A431
+Infective arthritis,傳染性關節炎,711.9,A431
+Osteoarthrosis、localized、not specified whether primary or secondary,局部骨關節病,715.3,A431
+Internal derangement of knee (IDK),膝內部障礙,717.9,A432
+Meniscus tear (old),半月板障礙（陳舊性）,717.5,A432
+Loose body in knee,膝關節游離體,717.6,A432
+Chondromalacia of patella,髕骨軟骨之軟化,717.7,A432
+Internal derangement of knee,膝內障礙,717.8,A432
+Hemarthrosis,關節血腫,719.1,A432
+Chronic osteomyelitis,慢性骨髓炎,730.1,A436
+Aseptic necrosis of bone,無菌性骨壞死,733.4,A439
+Neuralgia、neuritis、and radiculitis,神經痛、神經炎及神經根炎,729.2,A435
+Kyphosis,脊柱後彎(駝背),737.1,A439
+Scoliosis、idiopathic,自發性脊柱側彎,737.3,A439
+Bursitis,滑液囊炎,727.3,A435
+Enthesopathy of elbow region,肘部著骨點病變(原寫 : 726.32:網球肘),726.3,A435
+Legg-Calve-Perthes disease (LCPD),少年時期髖部及骨盆之骨軟骨症,732.1,A439
+Slipped capitas femoral epiphysis (SCFE),滑脫股骨頭骨垢,732.2,A439
+Hallux valgus,拇指外翻（後天性）,735.0,A437
+Mallet finger,鎚形手指,736.1,A437
+Acquired deformity of limb,肢體之後天性變形,736.9,A437
+Poliomyelitis,急性脊髓灰白質炎（小兒麻痺）,045.9,A040
+Dislocation developmental hip、unilateral,髖骨先天性脫臼、單側,754.3,A446
+Club foot,畸形足,754.7,A447
+Polydactyly,多指(趾)畸形,755.0,A447
+Syndactyly,併指(趾)畸形,755.1,A447
+Cardiovascular disease,心臟血管疾病,429.2,A289
